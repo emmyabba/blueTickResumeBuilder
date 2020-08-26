@@ -24,7 +24,7 @@
     <!-- Hero End -->
 
      <!-- Feature Start -->
-     <section class="section bg-soft-light">
+     <section class="section bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12">
@@ -35,7 +35,7 @@
 
                         <div class="content mt-4">
                             <h4 class="title-2">Select CV Template</h4>
-                            <p class="text-muted mb-0">Nisi aenean vulputate eleifend tellus vitae eleifend enim a eleifend Aliquam aenean elementum semper.</p>
+                            <p class="text-muted mb-0">Find job-winning templates that fit your profile whether you are an undergraduate student, have no experience, applying for an internship or a fresh graduate.</p>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -48,7 +48,7 @@
 
                         <div class="content mt-4">
                             <h4 class="title-2">Edit Template</h4>
-                            <p class="text-muted mb-0">Allegedly, a Latin scholar established the origin of the text established by compiling unusual word.</p>
+                            <p class="text-muted mb-0">Easily edit CV templates online using pre-generated keywords suggested by knowledge experts and hiring practices gathered from actual recruiters.</p>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -61,7 +61,7 @@
 
                         <div class="content mt-4">
                             <h4 class="title-2">Download or Share</h4>
-                            <p class="text-muted mb-0">It seems that only fragments of the original text remain in the Lorem the original Ipsum texts used today.</p>
+                            <p class="text-muted mb-0">Save your perfect CV in any common format, including Microsoft Word and PDF in a single click.</p>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -76,8 +76,15 @@
 
                 <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <div class="section-title ml-lg-3">
-                        <h4 class="title mb-4">Great Product Analytics With Real Problem</h4>
-                        <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
+                        <h4 class="title mb-4">Designed for you to save time and avoid errors.</h4>
+                        <p class="text-muted">Our CV builder and templates are based on what employers actually look for in a candidate. How do we know? We’ve talked with hundreds of employers to get the answers. Landing your dream starts here.
+                            ●	Easy to create
+                            ●	Developed by recruiters
+                            ●	Approved by employers
+                            ●	Outstanding template layouts
+                            ●	Your data is safe
+                            ●	Attention-grabbing keywords
+                            .</p>
                         <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="mdi mdi-chevron-right"></i></a>
                     </div>
                 </div><!--end col-->
@@ -93,7 +100,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Pricing </h4>
-                        <p class="text-muted para-desc mb-0 mx-auto">Startcreating CVs <span class="text-primary font-weight-bold"></span> that recruiters will love today.</p>
+                        <p class="text-muted para-desc mb-0 mx-auto">Startcreating CVs <span class="text-primary font-weight-bold"></span>Save your perfect CV in any common format, including Microsoft Word and PDF in a single click.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
