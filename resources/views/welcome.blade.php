@@ -7,22 +7,84 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 col-md-7 order-1 order-md-2">
                     <div class="title-heading mt-4 ml-lg-5">
-                        <h1 class="heading mb-3">Get help writing a <span class="text-primary">CV</span> employers love</h1>
-                        <p class="para-desc text-muted">Thinking about how to write a CV? Use our CV templates developed by the employers you are applying to. We have easy to use templates for you whether you are an undergraduate student applying to an internship with no experience or a graduate with several years of experience</p>
+                        <h2 class="heading mb-3">Less than <span class="text-primary">10%</span> of resumes make it past the first round of recruiters review.</h2>
+                        <p class="para-desc text-muted">start creating professionally-designed CV templates approved by recruiters to get into the top 5% of job seekers who get invited for interviews.</p>
                         <div class="watch-video mt-4 pt-2">
-                            <a href="javascript:void(0)" class="btn btn-primary">Get started <i class="mdi mdi-chevron-right"></i></a>
+                            <a href="javascript:void(0)" class="btn btn-primary">Create a CV <i class="mdi mdi-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!--end col-->
 
                 <div class="col-lg-5 col-md-5 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                    <img src="{{ asset('blue/images/hero-img.jpg')}}" class="img-fluid" alt="">
+                    <img src="{!! asset('blue/images/user_interface.svg')!!}" class="img-fluid" alt="">
                 </div>
             </div><!--end row-->
         </div><!--end container-->
     </section><!--end section-->
     <!-- Hero End -->
 
+     <!-- Feature Start -->
+     <section class="section bg-soft-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <img src="images/icon/pen.svg" class="avatar avatar-small" alt="">
+                        </div>
+
+                        <div class="content mt-4">
+                            <h4 class="title-2">Select CV Template</h4>
+                            <p class="text-muted mb-0">Nisi aenean vulputate eleifend tellus vitae eleifend enim a eleifend Aliquam aenean elementum semper.</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-md-4 col-12 mt-5 mt-sm-0">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <img src="images/icon/video.svg" class="avatar avatar-small" alt="">
+                        </div>
+
+                        <div class="content mt-4">
+                            <h4 class="title-2">Edit Template</h4>
+                            <p class="text-muted mb-0">Allegedly, a Latin scholar established the origin of the text established by compiling unusual word.</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+                <div class="col-md-4 col-12 mt-5 mt-sm-0">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <img src="images/icon/intellectual.svg" class="avatar avatar-small" alt="">
+                        </div>
+
+                        <div class="content mt-4">
+                            <h4 class="title-2">Download or Share</h4>
+                            <p class="text-muted mb-0">It seems that only fragments of the original text remain in the Lorem the original Ipsum texts used today.</p>
+                        </div>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <img src="images/saas/2.png" class="img-fluid" alt="">
+                </div><!--end col-->
+
+                <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title ml-lg-3">
+                        <h4 class="title mb-4">Great Product Analytics With Real Problem</h4>
+                        <p class="text-muted">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
+                        <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section><!--end section-->
+    <!-- Feature End -->
 
 
     <section class="section" id="pricing">
