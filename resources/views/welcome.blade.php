@@ -15,8 +15,8 @@
                     </div>
                 </div><!--end col-->
 
-                <div class="col-lg-5 col-md-5 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                    <img src="{!! asset('blue/images/user_interface.svg')!!}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-3 ">
+                    <img src="{!! asset('blue/images/user_interface.svg')!!}" class="" alt="" width="2%" height="2%">
                 </div>
             </div><!--end row-->
         </div><!--end container-->
@@ -30,7 +30,7 @@
                 <div class="col-md-4 col-12">
                     <div class="features text-center">
                         <div class="image position-relative d-inline-block">
-                            <img src="images/icon/pen.svg" class="avatar avatar-small" alt="">
+                            <img src="{!! ('blue/images/icon/select.svg') !!}" class="avatar avatar-small" alt="">
                         </div>
 
                         <div class="content mt-4">
@@ -43,7 +43,7 @@
                 <div class="col-md-4 col-12 mt-5 mt-sm-0">
                     <div class="features text-center">
                         <div class="image position-relative d-inline-block">
-                            <img src="images/icon/video.svg" class="avatar avatar-small" alt="">
+                            <img src="{!! ('blue/images/icon/pen.svg') !!}" class="avatar avatar-small" alt="">
                         </div>
 
                         <div class="content mt-4">
@@ -56,7 +56,7 @@
                 <div class="col-md-4 col-12 mt-5 mt-sm-0">
                     <div class="features text-center">
                         <div class="image position-relative d-inline-block">
-                            <img src="images/icon/intellectual.svg" class="avatar avatar-small" alt="">
+                            <img src="{!! ('blue/images/icon/printer.svg') !!}" class="avatar avatar-small" alt="">
                         </div>
 
                         <div class="content mt-4">
@@ -71,21 +71,24 @@
         <div class="container mt-100 mt-60">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
-                    <img src="images/saas/2.png" class="img-fluid" alt="">
+                    <img src="{!! ('blue/images/bluetick-cv-img.jpg')!!}" class="img-fluid" alt="">
                 </div><!--end col-->
 
                 <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <div class="section-title ml-lg-3">
-                        <h4 class="title mb-4">Designed for you to save time and avoid errors.</h4>
-                        <p class="text-muted">Our CV builder and templates are based on what employers actually look for in a candidate. How do we know? We’ve talked with hundreds of employers to get the answers. Landing your dream starts here.
-                            ●	Easy to create
-                            ●	Developed by recruiters
-                            ●	Approved by employers
-                            ●	Outstanding template layouts
-                            ●	Your data is safe
-                            ●	Attention-grabbing keywords
-                            .</p>
-                        <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="mdi mdi-chevron-right"></i></a>
+                        <h4 class="title mb-4"></h4>
+                        <p class="">Create a job-winning CV to get your dream job
+                            Save time with our easy to use 3-step CV builder. In one click you can start creating professionally-designed CV templates approved by recruiters. Just dit and download in 5 minutes.
+                            <ul class="text">
+                                <li>Easy to create</li>
+                                <li>Developed by recruiters</li>
+                                <li>Approved by employers</li>
+                                <li>Outstanding template layouts</li>
+                                <li>Your data is safe</li>
+                                <li>Attention-grabbing keywords</li>
+                            </ul>
+                           </p>
+
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -107,45 +110,62 @@
 
             <div class="row align-items-center">
 
-                <div class="col-md-6 col-12 mt-4 pt-2">
+                <div class="col-md-4 col-12 mt-4 pt-2">
                     <div class="card pricing-rates business-rate shadow bg-light rounded text-center border-0">
                         <div class="card-body py-5">
-                            <h2 class="title text-uppercase text-primary mb-4">Starter</h2>
+                            <h2 class="title text-uppercase text-primary mb-4">Bronze</h2>
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358;</span>
-                                <span class="price h1 mb-0">39</span>
+                                <span class="price h1 mb-0">1000</span>
                                 <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
-                                {{-- <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Full Access</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Source Files</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Free Appointments</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Free Installment</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Enhanced Security</li> --}}
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>1 Month Access</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit Cv templates</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download MS word or PDF</li>
+
                             </ul>
                             <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
                         </div>
                     </div>
                 </div><!--end col-->
 
-                <div class="col-md-6 col-12 mt-4 pt-2">
+                <div class="col-md-4 col-12 mt-4 pt-2">
                     <div class="card pricing-rates business-rate shadow bg-light rounded text-center border-0">
                         <div class="card-body py-5">
-                            <h2 class="title text-uppercase mb-4">Professional</h2>
+                            <h2 class="title text-uppercase mb-4">Silver</h2>
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358; </span>
-                                <span class="price h1 mb-0">59</span>
+                                <span class="price h1 mb-0">1, 500</span>
                                 <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
-                                {{-- <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Full Access</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Enhanced Security</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Source Files</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>1 Domain Free</li> --}}
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>3 Month Access</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit Cv templates</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download MS word or PDF</li>
                             </ul>
-                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Try It Now</a>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get started</a>
+                        </div>
+                    </div>
+                </div><!--end col-->
+                <div class="col-md-4 col-12 mt-4 pt-2">
+                    <div class="card pricing-rates business-rate shadow bg-light rounded text-center border-0">
+                        <div class="card-body py-5">
+                            <h2 class="title text-uppercase mb-4">Gold</h2>
+                            <div class="d-flex justify-content-center mb-4">
+                                <span class="h4 mb-0 mt-2">&#8358; </span>
+                                <span class="price h1 mb-0">2, 500</span>
+                                <span class="h4 align-self-end mb-1">/mo</span>
+                            </div>
+
+                            <ul class="list-unstyled mb-0 pl-0">
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>6 Month Access</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit Cv templates</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download MS word or PDF</li>
+                            </ul>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
                         </div>
                     </div>
                 </div><!--end col-->
