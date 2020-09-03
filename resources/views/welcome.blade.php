@@ -15,8 +15,8 @@
                     </div>
                 </div><!--end col-->
 
-                <div class="col-lg-3 col-md-3 ">
-                    <img src="{!! ('blue/images/working_with_computer.svg')!!}" class="" alt="" width="2%" height="2%">
+                <div class="col-lg-5 col-md-5 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <img src="{!! asset('blue/images/working_with_computer.svg')!!}" class="img-fluid" alt="">
                 </div>
             </div><!--end row-->
         </div><!--end container-->
