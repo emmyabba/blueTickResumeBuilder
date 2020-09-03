@@ -10,18 +10,18 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <!-- Bootstrap -->
-        <link href="{!! ('blue/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css" />
+        <link href="{!! asset('blue/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css" />
         <!-- Magnific -->
-        <link href="{!! ('blue/css/magnific-popup.css') !!}" rel="stylesheet" type="text/css" />
+        <link href="{!! asset('blue/css/magnific-popup.css') !!}" rel="stylesheet" type="text/css" />
         <!-- Icons -->
-        <link href="{!! ('blue/css/materialdesignicons.min.css') !!}" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="{!! ('blue/css/unicons.css') !!}">
+        <link href="{!! asset('blue/css/materialdesignicons.min.css') !!}" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="{!! asset('blue/css/unicons.css') !!}">
         <!-- Slider -->
-        <link rel="stylesheet" href="{!! ('blue/css/owl.carousel.min.css') !!}"/>
-        <link rel="stylesheet" href="{!! ('blue/css/owl.theme.default.min.css') !!}"/>
+        <link rel="stylesheet" href="{!! asset('blue/css/owl.carousel.min.css') !!}"/>
+        <link rel="stylesheet" href="{!! asset('blue/css/owl.theme.default.min.css') !!}"/>
         <!-- Main Css -->
-        <link href="{!! ('blue/css/style.css') !!}" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="{!! ('blue/css/colors/default.css') !!}" rel="stylesheet" id="color-opt">
+        <link href="{!! asset('blue/css/style.css') !!}" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="{!! asset('blue/css/colors/default.css') !!}" rel="stylesheet" id="color-opt">
 
     </head>
 
@@ -42,7 +42,7 @@
             <div class="container">
                 <!-- Logo container-->
                 <div>
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="{{route('welcome')}}">
                         <img src="images/logo-dark.png" height="24" alt="">
                     </a>
                 </div>
@@ -94,20 +94,20 @@
         <!-- Back to top -->
 
         <!-- javascript -->
-        <script src="{!! ('blue/js/jquery-3.5.1.min.js') !!}"></script>
-        <script src="{!! ('blue/js/bootstrap.bundle.min.js') !!}"></script>
-        <script src="{!! ('blue/js/jquery.easing.min.js') !!}"></script>
-        <script src="{!! ('blue/js/scrollspy.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/jquery-3.5.1.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/bootstrap.bundle.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/jquery.easing.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/scrollspy.min.js') !!}"></script>
         <!-- Magnific Popup -->
-        <script src="{!! ('blue/js/jquery.magnific-popup.min.js') !!}"></script>
-        <script src="{!! ('blue/js/magnific.init.js') !!}"></script>
+        <script src="{!! asset('blue/js/jquery.magnific-popup.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/magnific.init.js') !!}"></script>
         <!-- SLIDER -->
-        <script src="{!! ('blue/js/owl.carousel.min.js') !!} "></script>
-        <script src="{!! ('blue/js/owl.init.js ') !!}"></script>
+        <script src="{!! asset('blue/js/owl.carousel.min.js') !!} "></script>
+        <script src="{!! asset('blue/js/owl.init.js ') !!}"></script>
         <!-- Icons -->
-        <script src="{!! ('blue/js/feather.min.js') !!}"></script>
-        <script src="{!! ('blue/js/bundle.js') !!}"></script>
+        <script src="{!! asset('blue/js/feather.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/bundle.js') !!}"></script>
         <!-- Main Js -->
-        <script src="{!! ('blue/js/app.js') !!}"></script>
+        <script src="{!! asset('blue/js/app.js') !!}"></script>
     </body>
 </html>

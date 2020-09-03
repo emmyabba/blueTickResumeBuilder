@@ -16,7 +16,7 @@
                 </div><!--end col-->
 
                 <div class="col-lg-3 col-md-3 ">
-                    <img src="{!! asset('blue/images/working_with_computer.svg')!!}" class="" alt="" width="2%" height="2%">
+                    <img src="{!! ('blue/images/working_with_computer.svg')!!}" class="" alt="" width="2%" height="2%">
                 </div>
             </div><!--end row-->
         </div><!--end container-->
@@ -30,7 +30,7 @@
                 <div class="col-md-4 col-12">
                     <div class="features text-center">
                         <div class="image position-relative d-inline-block">
-                            <img src="{!! ('blue/images/icon/select.svg') !!}" class="avatar avatar-small" alt="">
+                            <span class="h1 text-primary text-bold">1</span>
                         </div>
 
                         <div class="content mt-4">
@@ -43,7 +43,7 @@
                 <div class="col-md-4 col-12 mt-5 mt-sm-0">
                     <div class="features text-center">
                         <div class="image position-relative d-inline-block">
-                            <img src="{!! ('blue/images/icon/pen.svg') !!}" class="avatar avatar-small" alt="">
+                            <span class="h1 text-primary text-bold">2</span>
                         </div>
 
                         <div class="content mt-4">
@@ -56,7 +56,7 @@
                 <div class="col-md-4 col-12 mt-5 mt-sm-0">
                     <div class="features text-center">
                         <div class="image position-relative d-inline-block">
-                            <img src="{!! ('blue/images/icon/printer.svg') !!}" class="avatar avatar-small" alt="">
+                            <span class="h1 text-primary text-bold">3</span>
                         </div>
 
                         <div class="content mt-4">
@@ -95,7 +95,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Template Key Features</h4>
-                        <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p class="text-muted para-desc mx-auto mb-0">Designed for you to save time and energy. Our CV builder and templates are based on what employers actually look for in a candidate. How do we know? We’ve talked with thousands of employers to get the answers. Landing your dream job starts here.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -104,10 +104,10 @@
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="media key-feature align-items-center p-3 rounded shadow">
                         <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="monitor" class="fea icon-ex-md text-primary"></i>
+                            <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="title mb-0">Fully Responsive</h4>
+                            <h4 class="title mb-0">Developed by Recruiters</h4>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -118,7 +118,7 @@
                             <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="title mb-0">Browser Compatibility</h4>
+                            <h4 class="title mb-0">Outstanding template layouts</h4>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -126,10 +126,10 @@
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="media key-feature align-items-center p-3 rounded shadow">
                         <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="eye" class="fea icon-ex-md text-primary"></i>
+                            <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="title mb-0">Retina Ready</h4>
+                            <h4 class="title mb-0">Easy online CV builder</h4>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -137,10 +137,10 @@
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="media key-feature align-items-center p-3 rounded shadow">
                         <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="bold" class="fea icon-ex-md text-primary"></i>
+                            <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="title mb-0">Based On Bootstrap 4</h4>
+                            <h4 class="title mb-0">Approved by employers</h4>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -148,10 +148,10 @@
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="media key-feature align-items-center p-3 rounded shadow">
                         <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="feather" class="fea icon-ex-md text-primary"></i>
+                            <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="title mb-0">Feather Icons</h4>
+                            <h4 class="title mb-0">Your data is safe</h4>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -159,50 +159,14 @@
                 <div class="col-lg-4 col-md-6 mt-4 pt-2">
                     <div class="media key-feature align-items-center p-3 rounded shadow">
                         <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="code" class="fea icon-ex-md text-primary"></i>
+                            <i data-feather="heart" class="fea icon-ex-md text-primary"></i>
                         </div>
                         <div class="media-body">
-                            <h4 class="title mb-0">Built With SASS</h4>
+                            <h4 class="title mb-0">Atention grabbing keywords</h4>
                         </div>
                     </div>
                 </div><!--end col-->
 
-                <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                    <div class="media key-feature align-items-center p-3 rounded shadow">
-                        <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="user-check" class="fea icon-ex-md text-primary"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="title mb-0">W3c Valid Code</h4>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                    <div class="media key-feature align-items-center p-3 rounded shadow">
-                        <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="git-merge" class="fea icon-ex-md text-primary"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="title mb-0">Flaticon Icons</h4>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                    <div class="media key-feature align-items-center p-3 rounded shadow">
-                        <div class="icon text-center rounded-circle mr-3">
-                            <i data-feather="settings" class="fea icon-ex-md text-primary"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="title mb-0">Easy to customize</h4>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-12 mt-4 pt-2 text-center">
-                    <a href="javascript:void(0)" class="btn btn-primary">See More <i class="mdi mdi-arrow-right"></i></a>
-                </div><!--end col-->
             </div><!--end row-->
         </div><!--end container-->
     </section><!--end section-->
@@ -284,86 +248,6 @@
             </div><!--end row-->
         </div><!--end container-->
 
-        <div class="container mt-100 mt-60" id="blog">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <div class="section-title mb-4 pb-2">
-                        <h4 class="title mb-4">Latest News</h4>
-                        <p class="text-muted para-desc mx-auto mb-0"><span class="text-primary font-weight-bold"></span></p>
-                    </div>
-                </div><!--end col-->
-            </div><!--end row-->
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                    <div class="card blog rounded border-0 shadow">
-                        <div class="position-relative">
-                            <img src="images/blog/01.jpg" class="card-img-top rounded-top" alt="...">
-                        <div class="overlay rounded-top bg-dark"></div>
-                        </div>
-                        <div class="card-body content">
-                            <h5><a href="javascript:void(0)" class="card-title title text-dark">Latest News 1</a></h5>
-                            <div class="post-meta d-flex justify-content-between mt-3">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
-                                </ul>
-                                <a href="page-blog-detail.html" class="text-muted readmore">Read More <i class="mdi mdi-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <small class="text-light user d-block"><i class="mdi mdi-account"></i> Calvin Carlo</small>
-                            <small class="text-light date"><i class="mdi mdi-calendar-check"></i> 13th August, 2019</small>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                    <div class="card blog rounded border-0 shadow">
-                        <div class="position-relative">
-                            <img src="images/blog/02.jpg" class="card-img-top rounded-top" alt="...">
-                        <div class="overlay rounded-top bg-dark"></div>
-                        </div>
-                        <div class="card-body content">
-                            <h5><a href="javascript:void(0)" class="card-title title text-dark">Latest News 2</a></h5>
-                            <div class="post-meta d-flex justify-content-between mt-3">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
-                                </ul>
-                                <a href="page-blog-detail.html" class="text-muted readmore">Read More <i class="mdi mdi-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <small class="text-light user d-block"><i class="mdi mdi-account"></i> Calvin Carlo</small>
-                            <small class="text-light date"><i class="mdi mdi-calendar-check"></i> 13th August, 2019</small>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                    <div class="card blog rounded border-0 shadow">
-                        <div class="position-relative">
-                            <img src="images/blog/03.jpg" class="card-img-top rounded-top" alt="...">
-                        <div class="overlay rounded-top bg-dark"></div>
-                        </div>
-                        <div class="card-body content">
-                            <h5><a href="javascript:void(0)" class="card-title title text-dark">Latest News 3</a></h5>
-                            <div class="post-meta d-flex justify-content-between mt-3">
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-inline-item mr-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="mdi mdi-heart-outline mr-1"></i>33</a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="mdi mdi-comment-outline mr-1"></i>08</a></li>
-                                </ul>
-                                <a href="page-blog-detail.html" class="text-muted readmore">Read More <i class="mdi mdi-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="author">
-                            <small class="text-light user d-block"><i class="mdi mdi-account"></i> Calvin Carlo</small>
-                            <small class="text-light date"><i class="mdi mdi-calendar-check"></i> 13th August, 2019</small>
-                        </div>
-                    </div>
-                </div><!--end col-->
-            </div><!--end row-->
-        </div><!--end container-
+        </div><!--end container-->
     </section>
 @endsection
