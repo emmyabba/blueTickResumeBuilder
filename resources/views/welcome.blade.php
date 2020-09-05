@@ -70,15 +70,15 @@
 
         <div class="container mt-100 mt-60">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
+                {{-- <div class="col-lg-6 col-md-6">
                     <img src="{!! ('blue/images/bluetick-cv-img.jpg')!!}" class="img-fluid" alt="">
-                </div><!--end col-->
+                </div><!--end col--> --}}
 
-                <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="col-lg-12 col-md-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <div class="section-title ml-lg-3">
-                        <h4 class="title mb-4">Learn how to write a job-winning CV to get your dream job</h4>
-                        <p class="">Save time with our easy to use 3-step CV builder. In one click you can start creating professionally-designed CV templates approved by recruiters. Just dit and download in 5 minutes. </p>
-                        <div class="watch-video mt-4 pt-2">
+                        <h4 class="title mb-4 text-center">Learn how to write a job-winning CV to get your dream job</h4>
+                        <p class="text-center">Save time with our easy to use 3-step CV builder. In one click you can start creating professionally-designed CV templates approved by recruiters. Just dit and download in 5 minutes. </p>
+                        <div class="watch-video mt-4 pt-2 text-center">
                             <a href="{{route('startcv')}}" class="btn btn-primary">Create a CV <i class="mdi mdi-chevron-right"></i></a>
                         </div>
 
@@ -250,4 +250,8 @@
 
         </div><!--end container-->
     </section>
+@endsection
+
+@section('footer')
+    @include('layouts.landing_footer')
 @endsection

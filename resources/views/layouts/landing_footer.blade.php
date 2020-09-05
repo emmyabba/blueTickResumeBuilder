@@ -50,7 +50,7 @@
         <div class="row align-items-center">
             <div class="col-sm-6">
                 <div class="text-sm-left">
-                    <p class="mb-0">© {{date('Y')}}2020. <i class="mdi mdi-heart text-danger"></i> bluetick<a href="https://twitter.com/gr8nexx" target="_blank" class="text-reset"></a></p>
+                    <p class="mb-0">© {{date('Y')}}. <i class="mdi mdi-heart text-danger"></i> bluetick<a href="https://twitter.com/gr8nexx" target="_blank" class="text-reset"></a></p>
                 </div>
             </div><!--end col-->
 

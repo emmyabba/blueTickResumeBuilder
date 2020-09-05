@@ -56,7 +56,15 @@
                 @else
                     <div class="buy-button">
                         <a href="{{route('login')}}" class="btn btn-primary"">My Account</a>
-                        <a href="{{route('register')}}" class="btn btn-outline-secondary">Logout</a>
+                        <a class="btn btn-outline-secondary" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();">
+                         {{ __('Logout') }}
+                     </a>
+
+                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                         @csrf
+                     </form>
                     </div><!--end login button-->
 
                 @endguest
@@ -86,7 +94,7 @@
     @yield('content')
 
         <!-- Footer Start -->
-        @include('layouts.landing_footer')
+        @yield('footer')
         <!-- Footer End -->
 
         <!-- Back to top -->
