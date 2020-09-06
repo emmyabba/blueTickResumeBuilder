@@ -48,7 +48,7 @@
                 </div>
                 @guest
                     <div class="buy-button">
-                            <a href="{{route('login')}}" class="btn btn-outline-secondary">Login</a>
+                            <a href="{{route('login')}}" class="btn btn-outline-white">Login</a>
                         @if (Route::has('register'))
                             <a href="{{route('register')}}" class="btn btn-primary">Signup</a>
                         @endif
@@ -117,5 +117,7 @@
         <script src="{!! asset('blue/js/bundle.js') !!}"></script>
         <!-- Main Js -->
         <script src="{!! asset('blue/js/app.js') !!}"></script>
+
     </body>
 </html>
+
