@@ -13,6 +13,16 @@ class WelcomeController extends Controller
         $keywords = '';
         $author = '';
 
+        return view('count', compact('keywords'));
+    }
+
+    public function staging()
+    {
+
+        $description ='';
+        $keywords = '';
+        $author = '';
+
         return view('welcome', compact('keywords'));
     }
 }

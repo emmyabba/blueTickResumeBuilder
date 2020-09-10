@@ -44,7 +44,69 @@
                     <div class="widget">
                         <div class="row">
                             <div class="col-12">
+                                <form>
+                                    <h3 class="alert text-primary">Personal Details</h3><hr>
+                                    <div class="row mt-4">
+                                        <div class="col-md-6">
+                                            <div class="form-group position-relative">
+                                                <label>First Name</label>
+                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                <input name="name" id="first" type="text" class="form-control pl-5" value="{{Auth()->user()->othernames.'\'s'}}">
+                                            </div>
+                                        </div><!--end col-->
+                                        <div class="col-md-6">
+                                            <div class="form-group position-relative">
+                                                <label>Other Name</label>
+                                                <i data-feather="user-check" class="fea icon-sm icons"></i>
+                                                <input name="name" id="last" type="text" class="form-control pl-5" value="{{Auth()->user()->lastname}}">
+                                            </div>
+                                        </div><!--end col-->
+                                        <div class="col-md-6">
+                                            <div class="form-group position-relative">
+                                                <label>Your Email</label>
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input name="email" id="email" type="email" class="form-control pl-5" value="{{Auth()->user()->email}}">
+                                            </div>
+                                        </div><!--end col-->
+                                        <div class="col-md-6">
+                                            <div class="form-group position-relative">
+                                                <label>Phone Number</label>
+                                                <i data-feather="phone" class="fea icon-sm icons"></i>
+                                                <input name="name" id="occupation" type="text" class="form-control pl-5" value="{{Auth()->user()->phone_number}}">
+                                            </div>
+                                        </div><!--end col-->
 
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <label>Professional Summary</label>
+                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                <textarea name="comments" id="comments" rows="4" class="form-control pl-5" placeholder="Include 2-3 clear sentences about your overall experience"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <h3 class="alert text-info">Personal Details</h3><hr>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                             <a href="#"><span class="alert text-info">+ Educational History</span></a>
+                                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <h3 class="alert text-info">Personal Details</h3><hr>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                             <a href="#"><span class="alert text-info">+ Educational History</span></a>
+                                                            </div>
+                                        </div>
+                                    </div><!--end row-->
+
+                                </form><!--end form-->
                             </div><!--end col-->
 
                         </div><!--end row-->
@@ -56,7 +118,18 @@
                 <div class="rounded shadow p-4">
                     <div class="d-flex align-items-center justify-content-between">
                         <h5 class="mb-0"> </h5>
-                  {{'some data'}}
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+
+                                <input type="submit" id="submit" name="send" class="btn btn-primary" value="Download CV">
+                            </div><!--end col-->
+                        </div><!--end row-->
 
                     </div>
 
