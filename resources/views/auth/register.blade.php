@@ -41,7 +41,7 @@
                         <div class="card login-page bg-white shadow rounded border-0">
                             <div class="card-body">
                                 <h4 class="card-title text-center">Signup</h4>
-                                <form class="login-form mt-4"method="POST" action="{{ route('register') }}">
+                                <form class="login-form mt-4" method="POST" action="{{ route('register') }}">
                                     @csrf
                                     <div class="row">
                                         <div class="col-md-6">

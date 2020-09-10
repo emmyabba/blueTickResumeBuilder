@@ -43,6 +43,7 @@
         <section class="bg-home bg-animation-left dark-left d-flex align-items-center" data-jarallax='{"speed": 0.5}' style="background-image: url('blue/images/comingsoon2.jpg');" id="home">
 
             <div class="container position-relative text-md-left text-center" style="z-index: 1;">
+                <form method="POST" action="{{ route('notifyme') }}>
                 <div class="row">
                     <div class="col-md-12">
 
@@ -103,6 +104,7 @@
                     </div>
                 </div>
             </div> <!-- end container -->
+        </form>
         </section>
         <!-- COMING SOON PAGE -->
 
