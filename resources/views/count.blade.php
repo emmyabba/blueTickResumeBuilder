@@ -48,7 +48,7 @@
                         <h1 class="text-uppercase text-white title-dark mt-2 mb-4 coming-soon">We are Launching Soon</h1>
                         <h2 class="h2 text-white">Signup for early access</h2>
                      </div>
-
+                    @include('flash')
                 </div>
                 <form method="POST" action="{{ route('notifyme')}}">
                         @csrf

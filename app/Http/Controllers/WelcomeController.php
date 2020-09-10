@@ -22,7 +22,7 @@ class WelcomeController extends Controller
 
         $this->validate($request, [
             'email' => 'required',
-            'phone_number' => 'required|unique:notifyme',
+            'phone_number' => 'required|unique:notifies',
             'designation' => 'required'
         ]);
 
@@ -33,7 +33,7 @@ class WelcomeController extends Controller
 
         $notifyme->save();
 
-        return redirect()->back()->with('success', 'Thank you for signing up. We will let you know when we go live');
+        return redirect()->back()->with('success', 'Thank you for signing up. We will let you know when we go LIVE');
 
     }
 
