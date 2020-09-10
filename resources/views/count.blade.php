@@ -57,8 +57,8 @@
                         <div class="form-group position-relative">
                             <label class="text-white">email<span class="text-danger">*</span></label>
                             <i data-feather="mail" class="fea icon-sm icons"></i>
-                            <input type="text" class="form-control pl-5 @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}" placeholder="" autocomplete="lastname" autofocus>
-                            @error('lastname')
+                            <input type="text" class="form-control pl-5 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="" autocomplete="email" autofocus>
+                            @error('email')
                                 <span class="text-danger" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
@@ -71,8 +71,8 @@
                         <div class="form-group position-relative">
                             <label class="text-white">Phone Number<span class="text-danger">*</span></label>
                             <i data-feather="user" class="fea icon-sm icons"></i>
-                            <input type="text" class="form-control pl-5 @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}" placeholder="" autocomplete="lastname" autofocus>
-                            @error('lastname')
+                            <input type="text" class="form-control pl-5 @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" placeholder="" autocomplete="phone_number" autofocus>
+                            @error('phone_number')
                                 <span class="text-danger" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
@@ -85,12 +85,12 @@
                         <div class="form-group position-relative">
                             <label class="text-white">Designation<span class="text-danger">*</span></label>
                             <i data-feather="user" class="fea icon-sm icons"></i>
-                           <select class="form-control pl-5 @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}">
+                           <select class="form-control pl-5 @error('designation') is-invalid @enderror" name="designation" value="{{ old('designation') }}">
                             <option>I am ...</option>
                                <option>a recent graduate</option>
                                <option>an experienced hire</option>
                            </select>
-                            @error('lastname')
+                            @error('designation')
                                 <span class="text-danger" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
