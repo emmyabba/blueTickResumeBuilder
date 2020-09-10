@@ -46,6 +46,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="text-uppercase text-white title-dark mt-2 mb-4 coming-soon">We are Launching Soon</h1>
+                        <h3 class="text-white">Bluetick helps you create a CV employers love. <br>Use our CV templates developed by the recruiters you are applying to. <br>We are building easy to use templates for you, whether you are an undergraduate student applying for an internship, have no experience or a university graduate.</h3>
                         <h2 class="h2 text-white">Signup for early access</h2>
                      </div>
                     @include('flash')
@@ -55,7 +56,7 @@
                     <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group position-relative">
-                                    <label class="text-white">email<span class="text-danger">*</span></label>
+                                    <label class="text-white">Email<span class="text-danger">*</span></label>
                                     <i data-feather="mail" class="fea icon-sm icons"></i>
                                     <input type="text" class="form-control pl-5 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="" autocomplete="email" autofocus>
                                     @error('email')
@@ -87,6 +88,8 @@
                                 <i data-feather="user" class="fea icon-sm icons"></i>
                             <select class="form-control pl-5 @error('designation') is-invalid @enderror" name="designation" value="{{ old('designation') }}">
                                 <option value="">I am ...</option>
+                                <option>undergraduate</option>
+                                <option>Post Graduate</option>
                                 <option>a recent graduate</option>
                                 <option>an experienced hire</option>
                             </select>
