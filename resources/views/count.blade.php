@@ -43,100 +43,73 @@
         <section class="bg-home bg-animation-left dark-left d-flex align-items-center" data-jarallax='{"speed": 0.5}' style="background-image: url('blue/images/comingsoon2.jpg');" id="home">
 
             <div class="container position-relative text-md-left text-center" style="z-index: 1;">
-                <form method="POST" action="{{ route('notifyme') }}>
                 <div class="row">
                     <div class="col-md-12">
-
                         <h1 class="text-uppercase text-white title-dark mt-2 mb-4 coming-soon">We are Launching Soon</h1>
                         <h2 class="h2 text-white">Signup for early access</h2>
+                     </div>
 
-                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group position-relative">
-                            <label class="text-white">email<span class="text-danger">*</span></label>
-                            <i data-feather="mail" class="fea icon-sm icons"></i>
-                            <input type="text" class="form-control pl-5 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="" autocomplete="email" autofocus>
-                            @error('email')
-                                <span class="text-danger" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                <form method="POST" action="{{ route('notifyme')}}">
+                        @csrf
+                    <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group position-relative">
+                                    <label class="text-white">email<span class="text-danger">*</span></label>
+                                    <i data-feather="mail" class="fea icon-sm icons"></i>
+                                    <input type="text" class="form-control pl-5 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="" autocomplete="email" autofocus>
+                                    @error('email')
+                                        <span class="text-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group position-relative">
+                                <label class="text-white">Phone Number<span class="text-danger">*</span></label>
+                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                <input type="text" class="form-control pl-5 @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" placeholder="" autocomplete="phone_number" autofocus>
+                                @error('phone_number')
+                                    <span class="text-danger" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group position-relative">
-                            <label class="text-white">Phone Number<span class="text-danger">*</span></label>
-                            <i data-feather="user" class="fea icon-sm icons"></i>
-                            <input type="text" class="form-control pl-5 @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ old('phone_number') }}" placeholder="" autocomplete="phone_number" autofocus>
-                            @error('phone_number')
-                                <span class="text-danger" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group position-relative">
+                                <label class="text-white">Designation<span class="text-danger">*</span></label>
+                                <i data-feather="user" class="fea icon-sm icons"></i>
+                            <select class="form-control pl-5 @error('designation') is-invalid @enderror" name="designation" value="{{ old('designation') }}">
+                                <option value="">I am ...</option>
+                                <option>a recent graduate</option>
+                                <option>an experienced hire</option>
+                            </select>
+                                @error('designation')
+                                    <span class="text-danger" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group position-relative">
-                            <label class="text-white">Designation<span class="text-danger">*</span></label>
-                            <i data-feather="user" class="fea icon-sm icons"></i>
-                           <select class="form-control pl-5 @error('designation') is-invalid @enderror" name="designation" value="{{ old('designation') }}">
-                            <option>I am ...</option>
-                               <option>a recent graduate</option>
-                               <option>an experienced hire</option>
-                           </select>
-                            @error('designation')
-                                <span class="text-danger" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-primary mt-4 -2" type="submit"><i class="mdi mdi-plus"></i> Notify Me</button>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <button class="btn btn-primary mt-4 -2"><i class="mdi mdi-plus"></i> Notify Me</button>
-                    </div>
-                </div>
+                </form>
             </div> <!-- end container -->
-        </form>
+
         </section>
         <!-- COMING SOON PAGE -->
 
-        <!-- Subscribe start -->
-        <div class="modal fade" id="LoginForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content rounded shadow border-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Subscribe Me</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="bg-white p-3 rounded box-shadow">
-                            <p>We are comingsoon. Please, Enter your mail id and subscribe.</p>
-                            <form>
-                                <div class="form-group mb-0">
-                                    <div class="input-group">
-                                        <input name="email" id="email" type="email" class="form-control" placeholder="Your Email :" required="" aria-describedby="newssubscribebtn">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary submitBnt" type="submit" id="paypalmail">Subscribe</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Subscribe end -->
+
 
         <!-- javascript -->
         <script src="{!! asset('blue/js/jquery-3.5.1.min.js')!!}"></script>
