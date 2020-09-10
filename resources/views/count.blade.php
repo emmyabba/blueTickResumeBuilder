@@ -37,9 +37,7 @@
         </div> -->
         <!-- Loader -->
 
-        <div class="back-to-home rounded d-none d-sm-block">
-            <a href="index.html" class="btn btn-icon btn-soft-primary"><i data-feather="home" class="icons"></i></a>
-        </div>
+
 
         <!-- COMING SOON PAGE -->
         <section class="bg-home bg-animation-left dark-left d-flex align-items-center" data-jarallax='{"speed": 0.5}' style="background-image: url('blue/images/comingsoon2.jpg');" id="home">
@@ -47,20 +45,61 @@
             <div class="container position-relative text-md-left text-center" style="z-index: 1;">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="javascript:void(0)" class="logo h5"><img src="images/logo-light.png" height="24" alt=""></a>
-                        <h1 class="text-uppercase text-white title-dark mt-2 mb-4 coming-soon"><span class="element" data-elements=""></span>We are Launching Soon</h1>
-                        <h2 class="h2 text-white">Signup for early Access</h2>
-                        <p class="text-light para-dark para-desc">Start working with <span class="font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+
+                        <h1 class="text-uppercase text-white title-dark mt-2 mb-4 coming-soon">We are Launching Soon</h1>
+                        <h2 class="h2 text-white">Signup for early access</h2>
+
                     </div>
                 </div>
-
                 <div class="row">
-
+                    <div class="col-md-6">
+                        <div class="form-group position-relative">
+                            <label class="text-white">email<span class="text-danger">*</span></label>
+                            <i data-feather="mail" class="fea icon-sm icons"></i>
+                            <input type="text" class="form-control pl-5 @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}" placeholder="" autocomplete="lastname" autofocus>
+                            @error('lastname')
+                                <span class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group position-relative">
+                            <label class="text-white">Phone Number<span class="text-danger">*</span></label>
+                            <i data-feather="user" class="fea icon-sm icons"></i>
+                            <input type="text" class="form-control pl-5 @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}" placeholder="" autocomplete="lastname" autofocus>
+                            @error('lastname')
+                                <span class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group position-relative">
+                            <label class="text-white">Designation<span class="text-danger">*</span></label>
+                            <i data-feather="user" class="fea icon-sm icons"></i>
+                           <select class="form-control pl-5 @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}">
+                            <option>I am ...</option>
+                               <option>a recent graduate</option>
+                               <option>an experienced hire</option>
+                           </select>
+                            @error('lastname')
+                                <span class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="index.html" data-toggle="modal" data-target="#LoginForm" class="btn btn-primary mt-4 mr-2"><i class="mdi mdi-check"></i> Notify Me</a>
-                        <a href="index.html" class="btn btn-outline-primary mt-4"><i class="mdi mdi-backup-restore"></i> Go Back Home</a>
+                        <button class="btn btn-primary mt-4 -2"><i class="mdi mdi-plus"></i> Notify Me</button>
                     </div>
                 </div>
             </div> <!-- end container -->
