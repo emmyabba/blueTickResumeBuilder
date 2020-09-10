@@ -16,6 +16,11 @@ class WelcomeController extends Controller
         return view('count', compact('keywords'));
     }
 
+    public function notifyme(Request $request)
+    {
+
+    }
+
     public function staging()
     {
 
