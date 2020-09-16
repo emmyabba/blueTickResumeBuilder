@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                 <a href="#" class="logo-footer">
-                    BLUETICK
+                    <img src="{!! asset('blue/images/logo-light.png')!!}" height="24" alt="">
                 </a>
                 <p class="mt-4">Easily Buiild a CV emplyees love in minutes</p>
 

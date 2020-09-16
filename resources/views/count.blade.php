@@ -88,10 +88,10 @@
                                 <i data-feather="user" class="fea icon-sm icons"></i>
                             <select class="form-control pl-5 @error('designation') is-invalid @enderror" name="designation" value="{{ old('designation') }}">
                                 <option value="">I am ...</option>
-                                <option>undergraduate</option>
+                                <option>An Undergraduate</option>
                                 <option>Post Graduate</option>
-                                <option>a recent graduate</option>
-                                <option>an experienced hire</option>
+                                <option>A Recent graduate</option>
+                                <option>An Experienced hire</option>
                             </select>
                                 @error('designation')
                                     <span class="text-danger" role="alert">

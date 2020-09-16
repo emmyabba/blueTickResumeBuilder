@@ -22,7 +22,7 @@
         <!-- Main Css -->
         <link href="{!! asset('blue/css/style.css') !!}" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="{!! asset('blue/css/colors/default.css') !!}" rel="stylesheet" id="color-opt">
-
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     </head>
 
     <body>
@@ -101,9 +101,8 @@
         <a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
         <!-- Back to top -->
 
-        <!-- javascript -->
-        <script src="{!! asset('blue/js/jquery-3.5.1.min.js') !!}"></script>
-        <script src="{!! asset('blue/js/bootstrap.bundle.min.js') !!}"></script>
+
+        {{-- <script src="{!! asset('blue/js/bootstrap.bundle.min.js') !!}"></script>
         <script src="{!! asset('blue/js/jquery.easing.min.js') !!}"></script>
         <script src="{!! asset('blue/js/scrollspy.min.js') !!}"></script>
         <!-- Magnific Popup -->
@@ -116,7 +115,8 @@
         <script src="{!! asset('blue/js/feather.min.js') !!}"></script>
         <script src="{!! asset('blue/js/bundle.js') !!}"></script>
         <!-- Main Js -->
-        <script src="{!! asset('blue/js/app.js') !!}"></script>
+        <script src="{!! asset('blue/js/app.js') !!}"></script> --}}
+
 
     </body>
 </html>
