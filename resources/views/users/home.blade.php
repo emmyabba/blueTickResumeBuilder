@@ -631,7 +631,15 @@
                                                 <a onclick="myFunctionx()" class="pull-right btn btn-info">Add Employment</a>
                                         </div>
                                     </div>
+
                                         <!-- -->
+                                        <div class="col-md-12">
+                                            <div class="form-group position-relative">
+                                                <label>Skills</label>
+                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                <textarea name="skills" id="skills" rows="2" class="form-control pl-5" placeholder="Add your skills here seperated by comas"></textarea>
+                                           </div>
+                                        </div>
 
 
                                     </div><!--end row-->
@@ -885,11 +893,18 @@
                                             $(".organisation_desc_2").text(currentText);
                                         });
 
+                                        $("#skills").keyup(function(){
+                                            // Getting the current value of textarea
+                                            var currentText = $(this).val();
+                                            // Setting the Div content
+                                            $(".skills").text(currentText);
+                                        });
+
                                     });
 
                                     </script>
 
-                                <div class="col-12">
+                                <div class="col-12" id="id="printhere"">
                                         <div class="row mt-4">
                                             <div class="col-md-12">
                                                 <h3 class="text-primary">{{Auth()->user()->lastname.' '.Auth()->user()->othernames}}</h3>
@@ -935,6 +950,14 @@
                                                     <p class="organisation_desc_2"></p>
                                             </div>
 
+                                            <div class="col-md-12">
+                                                <h3 class="alert alert-primary"><b>Skills</b></h3>
+                                                    <b><p class="skills"></p></b>
+
+                                            </div>
+                                            <div class="col-md-12">
+                                            <button class="btn btn-block btn-secondary" onClick="window.print()">Download </button>
+                                            </div>
 
                                         </div><!--end row-->
 
@@ -974,6 +997,23 @@ function myFunctionx() {
   }
 }
     </script>
+
+    <style>
+        @media print {
+  body * {
+    visibility: hidden;
+  }
+  #printheret, #printhere * {
+    visibility: visible;
+  }
+  #printhere {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+    </style>
 @endsection
 
 @section('footer')
