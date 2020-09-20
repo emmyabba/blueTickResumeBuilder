@@ -13,12 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('/', 'WelcomeController@index')->name('welcome');
-
-Route::post('/', 'WelcomeController@notifyme')->name('notifyme');
-
-Route::get('/staging', 'WelcomeController@staging')->name('staging');
+Route::get('/', 'WelcomeController@staging')->name('welcome');
 
 
 

@@ -696,7 +696,7 @@
 
                                         $("#educational_course_1").keyup(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = ', '+$(this).val();
                                             // Setting the Div content
                                             $(".educational_course_1").text(currentText);
                                         });
@@ -710,7 +710,7 @@
 
                                         $("#educational_startyear_1").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = $(this).val()+' -';
                                             // Setting the Div content
                                             $(".educational_startyear_1").text(currentText);
                                         });
@@ -739,7 +739,7 @@
                                         //EDUCATIONAL 2
                                         $("#educational_degree_2").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = $(this).val()+' ,';
                                             // Setting the Div content
                                             $(".educational_degree_2").text(currentText);
                                         });
@@ -927,7 +927,7 @@
                                                 <h3 class="alert alert-primary"><b>Educational History</b></h3>
                                                 <b><p class="educational_university_1"></p></b>
                                                 <p><span class="educational_degree_1"></span> <span class="educational_course_1"></span></p>
-                                                <p><span class="educational_startmonth_1"></span> <span class="educational_startyear_1"></span> - <span class="educational_endmonth_1"></span> <span class="educational_endyear_1"></span></p>
+                                                <p><span class="educational_startmonth_1"></span> <span class="educational_startyear_1"></span><span class="educational_endmonth_1"></span> <span class="educational_endyear_1"></span></p>
                                                 <p class="educational_desc_1"></p>
                                             </div>
                                             <div class="col-md-12">
