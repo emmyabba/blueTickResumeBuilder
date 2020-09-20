@@ -38,7 +38,7 @@
         <!-- Loader -->
 
         <!-- Navbar STart -->
-        <header id="topnav" class="defaultscroll sticky">
+        <header id="topnav" class=" ">
             <div class="container">
                 <!-- Logo container-->
                 <div>

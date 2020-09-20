@@ -25,3 +25,9 @@ Route::get('/bluetick-cv', 'HomeController@startcv')->name('startcv');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/subscription', 'HomeController@selectsub')->name('select.subscription');
+Route::get('/subscription/{package}', 'HomeController@processsub')->name('process.subscription');
+
+Route::get('/initiate-payment', 'HomeController@initiatepay')->name('initiate.payment');

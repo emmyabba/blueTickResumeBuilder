@@ -736,13 +736,8 @@
                                             $(".educational_desc_1").text(currentText);
                                         });
 
+
                                         //EDUCATIONAL 2
-                                        $("#educational_degree_2").change(function(){
-                                            // Getting the current value of textarea
-                                            var currentText = $(this).val()+' ,';
-                                            // Setting the Div content
-                                            $(".educational_degree_2").text(currentText);
-                                        });
 
                                         $("#educational_university_2").keyup(function(){
                                             // Getting the current value of textarea
@@ -750,6 +745,15 @@
                                             // Setting the Div content
                                             $(".educational_university_2").text(currentText);
                                         });
+
+                                        $("#educational_degree_2").change(function(){
+                                            // Getting the current value of textarea
+                                            var currentText = $(this).val()+' ,';
+                                            // Setting the Div content
+                                            $(".educational_degree_2").text(currentText);
+                                        });
+
+
 
                                         $("#educational_course_2").keyup(function(){
                                             // Getting the current value of textarea

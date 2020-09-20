@@ -18,6 +18,7 @@ class CreateSubscriptionsTable extends Migration
             $table->string('user_id');
             $table->string('package');
             $table->string('price');
+            $table->string('status')->default('0');
             $table->string('trans_ref');
             $table->string('start_date');
             $table->string('end_date');
