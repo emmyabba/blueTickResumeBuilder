@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Subscription;
+use Carbon\Carbon;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,9 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $current_date_time = Carbon::now()->toDateTimeString();
+        dd($current_date_time);
+        $isSubscribed = Subscription::where('Auth()->user()->id', 'user_id')->where('expired_at' <= $current_date_time)->get();
         return view('users.home');
     }
 
