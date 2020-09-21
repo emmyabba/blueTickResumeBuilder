@@ -26,31 +26,22 @@ class HomeController extends Controller
      */
     public function index()
     {
+
         $current_date_time = Carbon::now()->toDateTimeString();
 
-        $subscriptionStatus = Subscription::where('user_id', Auth()->user()->id)->where('end_date', '<=', $current_date_time)->where('status', '1')->first();
-
-        if($subscriptionStatus == null):
-            return redirect(route('select.subscription'));
-        else:
-
-        return view('users.home');
-
-        endif;
-    }
-
-    public function startcv()
-    {
-        $current_date_time = Carbon::now()->toDateTimeString();
-
-        $subscriptionStatus = Subscription::where('user_id', Auth()->user()->id)->where('end_date', '<=', $current_date_time)->where('status', '1')->first();
+        $subscriptionStatus = Subscription::where('user_id', Auth()->user()->id)->where('end_date', '>=', Carbon::now()->toDateString())->first();
 
         if($subscriptionStatus == null):
             return redirect(route('select.subscription'));
         endif;
 
+
         return view('users.home');
+
+
     }
+
+
 
     public function selectsub()
     {
@@ -91,10 +82,21 @@ class HomeController extends Controller
 
     public function handleGatewayCallback($id)
     {
-        $this_trans = session('this_trans');
+       $this_trans = session('this_trans');
 
-        dd($this_trans);
+       $order = Subscription::where('trans_id', $this_trans)->first();
+       $order->status = 1;
+       $order->paystack_response = $id;
+       $order->save();
+
+       return \redirect(route('home'))->with('success', 'Payment completed successfully. Create your CV');
+
+
+
     }
 
 
 }
+
+
+

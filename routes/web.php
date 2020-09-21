@@ -20,8 +20,6 @@ Route::get('/', 'WelcomeController@staging')->name('welcome');
 Auth::routes();
 
 
-Route::get('/bluetick-cv', 'HomeController@startcv')->name('startcv');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -35,3 +33,5 @@ Route::post('/pay', 'HomeController@redirectToGateway')->name('pay');
 Route::get('/payment/callback/{id}', 'HomeController@handleGatewayCallback');
 
 Route::get('/initiate-payment', 'HomeController@initiatepay')->name('initiate.payment');
+
+Route::get('/cv-preview', 'HomeController@cvpreview')->name('cv.preview');

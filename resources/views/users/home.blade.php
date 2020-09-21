@@ -44,7 +44,9 @@
                     <div class="widget">
                         <div class="row">
                             <div class="col-12">
+                                @include('flash')
                                 <form>
+
                                     <h3 class="alert text-primary">Personal Details</h3><hr>
                                     <div class="row">
                                         <div class="col-md-6">
