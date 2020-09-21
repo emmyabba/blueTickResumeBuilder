@@ -34,8 +34,8 @@
                         </div>
 
                         <div class="content mt-4">
-                            <h4 class="title-2">Select CV Template</h4>
-                            <p class="text-muted mb-0">Find job-winning templates that fit your profile whether you are an undergraduate student, have no experience, applying for an internship or a fresh graduate.</p>
+                            <h4 class="title-2">Signup</h4>
+                            <p class="text-muted mb-0">Create an account, select one of our payment plans to gain access to our job-winning templates that fit your profile whether you are an undergraduate student, have no experience, applying for an internship or a fresh graduate.</p>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -48,7 +48,7 @@
 
                         <div class="content mt-4">
                             <h4 class="title-2">Edit Template</h4>
-                            <p class="text-muted mb-0">Easily edit CV templates online using pre-generated keywords suggested by knowledge experts and hiring practices gathered from actual recruiters.</p>
+                            <p class="text-muted mb-0">Easily edit our CV template online using a design format that hightlights your skills and experiences. This is a format suggested by knowledge experts and hiring practices gathered from actual recruiters.</p>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -60,8 +60,8 @@
                         </div>
 
                         <div class="content mt-4">
-                            <h4 class="title-2">Download or Share</h4>
-                            <p class="text-muted mb-0">Save your perfect CV in any common format, including Microsoft Word and PDF in a single click.</p>
+                            <h4 class="title-2">Download</h4>
+                            <p class="text-muted mb-0">Save your created CV as a PDF and start sharing with recruiters today to stand out in an overcrowded job market.</p>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -179,7 +179,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Pricing </h4>
-                        <p class="text-muted para-desc mb-0 mx-auto">Startcreating CVs <span class="text-primary font-weight-bold"></span>Save your perfect CV in any common format, including Microsoft Word and PDF in a single click.</p>
+                        <p class="text-muted para-desc mb-0 mx-auto">Select a plan to get started with creating your CV</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
@@ -193,7 +193,6 @@
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358;</span>
                                 <span class="price h1 mb-0">1000</span>
-                                <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
@@ -202,7 +201,7 @@
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download MS word or PDF</li>
 
                             </ul>
-                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
+                            <a href="{{route('process.subscription', 'bronze')}}" class="btn btn-primary mt-4">Get Started</a>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -214,7 +213,6 @@
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358; </span>
                                 <span class="price h1 mb-0">1, 500</span>
-                                <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
@@ -222,7 +220,7 @@
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit Cv templates</li>
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download MS word or PDF</li>
                             </ul>
-                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get started</a>
+                            <a href="{{route('process.subscription', 'silver')}}" class="btn btn-primary mt-4">Get started</a>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -233,7 +231,6 @@
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358; </span>
                                 <span class="price h1 mb-0">2, 500</span>
-                                <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
@@ -241,7 +238,7 @@
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit Cv templates</li>
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download MS word or PDF</li>
                             </ul>
-                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
+                            <a href="{{route('process.subscription', 'gold')}}" class="btn btn-primary mt-4">Get Started</a>
                         </div>
                     </div>
                 </div><!--end col-->

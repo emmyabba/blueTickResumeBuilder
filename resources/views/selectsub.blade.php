@@ -22,7 +22,6 @@
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358;</span>
                                 <span class="price h1 mb-0">1000</span>
-                                <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
@@ -43,7 +42,6 @@
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358; </span>
                                 <span class="price h1 mb-0">1, 500</span>
-                                <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
@@ -62,7 +60,6 @@
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358; </span>
                                 <span class="price h1 mb-0">2, 500</span>
-                                <span class="h4 align-self-end mb-1">/mo</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">
