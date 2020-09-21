@@ -41,6 +41,14 @@ class HomeController extends Controller
 
     public function startcv()
     {
+        $current_date_time = Carbon::now()->toDateTimeString();
+
+        $subscriptionStatus = Subscription::where('user_id', Auth()->user()->id)->where('end_date', '<=', $current_date_time)->where('status', '1')->first();
+
+        if($subscriptionStatus == null):
+            return redirect(route('select.subscription'));
+        endif;
+
         return view('users.home');
     }
 
@@ -68,20 +76,24 @@ class HomeController extends Controller
         $sub->package = $package;
         $sub->price = $price;
         $sub->trans_id = mt_rand(1000000000, 9999999999);
+        $sub->start_date = Carbon::now()->toDateTimeString();
+        $sub->end_date = Carbon::today()->addDays(30);
 
+        $expire_at =  $sub->end_date;
+        $trans_id = $sub->trans_id;
+        $this_trans = session(['this_trans' => $trans_id]);
 
-        return view('users.initiatepayment', \compact('price', 'package', 'duration') );
+        $save = $sub->save();
+
+        return view('users.initiatepayment', \compact('price', 'package', 'duration', 'expire_at', 'trans_id') );
 
     }
 
-    public function handleGatewayCallback()
+    public function handleGatewayCallback($id)
     {
-        $paymentDetails = Paystack::getPaymentData();
+        $this_trans = session('this_trans');
 
-        dd($paymentDetails);
-        // Now you have the payment details,
-        // you can store the authorization_code in your db to allow for recurrent subscriptions
-        // you can then redirect or do whatever you want
+        dd($this_trans);
     }
 
 

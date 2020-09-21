@@ -32,6 +32,6 @@ Route::get('/subscription/{package}', 'HomeController@processsub')->name('proces
 
 Route::post('/pay', 'HomeController@redirectToGateway')->name('pay');
 
-Route::get('/payment/callback', 'HomeController@handleGatewayCallback');
+Route::get('/payment/callback/{id}', 'HomeController@handleGatewayCallback');
 
 Route::get('/initiate-payment', 'HomeController@initiatepay')->name('initiate.payment');

@@ -51,7 +51,7 @@
                                     <h3 class="alert text-primary">Payment Details</h3><hr>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <p class="text-danger">Please verify all information and click on Pay now.</p>
+                                            <p class="text-primary">Please verify all information and click on Pay now.</p>
                                         </div><!--end col-->
                                         <div class="col-md-12">
                                         <p class="text-inverse">Name: {{Auth()->user()->lastname.' '.Auth()->user()->othernames}}</p>
@@ -60,6 +60,7 @@
                                         <p class="text-inverse">Package Name:  Bluetick {{$package}}</p>
                                         <p class="text-inverse">Package Price: &#8358; {{$price}}</p>
                                         <p class="text-inverse">Package Duration:  {{$duration}} Month(s)</p>
+                                        <p class="text-inverse">Package Expiry:  <span class="alert alert-danger">{{$expire_at}}</span> </p>
                                         </div><!--end col-->
                                     <form id="paymentForm">
                                         @csrf
@@ -68,7 +69,7 @@
                                             <input type="hidden" name="amount" id="amount" value="{{$price}}">
                                             <input type="hidden" name="currency" value="NGN">
                                             <input name="email" id="email" type="hidden" value="{{Auth()->user()->email}}">
-                                            <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}">
+                                            <input type="hidden" name="reference" value="{{$trans_id}}">
                                             {{ csrf_field() }}
                                             <div class="form-group position-relative">
 
@@ -145,10 +146,7 @@ function payWithPaystack(e) {
     },
 
     callback: function(response){
-
-      let message = 'Payment complete! Reference: ' + response.reference;
-
-      window.location = "/payment/callback";
+      window.location = "http://127.0.0.1:8000/payment/callback/" + response.reference;
 
     }
 

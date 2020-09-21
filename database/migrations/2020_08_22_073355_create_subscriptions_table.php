@@ -20,6 +20,7 @@ class CreateSubscriptionsTable extends Migration
             $table->string('price');
             $table->string('status')->default('0');
             $table->string('trans_id');
+            $table->string('paystack_response')->default('0');
             $table->string('start_date');
             $table->string('end_date');
             $table->timestamps();
