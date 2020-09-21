@@ -35,3 +35,5 @@ Route::get('/payment/callback/{id}', 'HomeController@handleGatewayCallback');
 Route::get('/initiate-payment', 'HomeController@initiatepay')->name('initiate.payment');
 
 Route::get('/cv-preview', 'HomeController@cvpreview')->name('cv.preview');
+
+Route::post('/download-cv', 'HomeController@downloadcv')->name('download.cv');

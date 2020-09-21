@@ -45,7 +45,8 @@
                         <div class="row">
                             <div class="col-12">
                                 @include('flash')
-                                <form>
+                            <form>
+                                @csrf
 
                                     <h3 class="alert text-primary">Personal Details</h3><hr>
                                     <div class="row">
@@ -643,7 +644,6 @@
                                            </div>
                                         </div>
 
-
                                     </div><!--end row-->
 
                                 </form><!--end form-->
@@ -712,14 +712,14 @@
 
                                         $("#educational_startyear_1").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val()+' -';
+                                            var currentText = $(this).val();
                                             // Setting the Div content
                                             $(".educational_startyear_1").text(currentText);
                                         });
 
                                         $("#educational_endmonth_1").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = '- '+$(this).val();
                                             // Setting the Div content
                                             $(".educational_endmonth_1").text(currentText);
                                         });
@@ -910,7 +910,7 @@
 
                                     </script>
 
-                                <div class="col-12" id="id="printhere"">
+                                <div class="col-12" id="printhere">
                                         <div class="row mt-4">
                                             <div class="col-md-12">
                                                 <h3 class="text-primary">{{Auth()->user()->lastname.' '.Auth()->user()->othernames}}</h3>
@@ -961,20 +961,16 @@
                                                     <b><p class="skills"></p></b>
 
                                             </div>
-                                            <div class="col-md-12">
-                                            <button class="btn btn-block btn-secondary" onClick="window.print()">Download </button>
-                                            </div>
+
+
 
                                         </div><!--end row-->
 
                                 </div><!--end col-->
+                                <div class="col-md-12">
+                                    <button class="btn btn-block btn-secondary" onclick="window.print()">Download My CV</button>
+                                    </div>
 
-                        {{-- <div class="row">
-                            <div class="col-sm-12">
-
-                                <input type="submit" id="submit" name="send" class="btn btn-primary" value="Download CV">
-                            </div>
-                        </div> --}}
 
                     </div>
 
@@ -1005,7 +1001,8 @@ function myFunctionx() {
     </script>
 
     <style>
-        @media print {
+
+@media print {
   body * {
     visibility: hidden;
   }
@@ -1015,9 +1012,15 @@ function myFunctionx() {
   #printhere {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -410px;
   }
+
 }
+@page
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
 
     </style>
 @endsection

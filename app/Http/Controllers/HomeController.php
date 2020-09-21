@@ -95,6 +95,11 @@ class HomeController extends Controller
 
     }
 
+    public function downloadcv(Request $request)
+    {
+        dd($request);
+    }
+
 
 }
 
