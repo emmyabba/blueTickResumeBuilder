@@ -30,4 +30,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/subscription', 'HomeController@selectsub')->name('select.subscription');
 Route::get('/subscription/{package}', 'HomeController@processsub')->name('process.subscription');
 
+Route::post('/pay', 'HomeController@redirectToGateway')->name('pay');
+
+Route::get('/payment/callback', 'HomeController@handleGatewayCallback');
+
 Route::get('/initiate-payment', 'HomeController@initiatepay')->name('initiate.payment');

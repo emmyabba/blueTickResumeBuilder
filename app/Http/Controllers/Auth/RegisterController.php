@@ -9,6 +9,9 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
+use App\Mail\RegistrationForm;
+use App\Mail\RegistrationFormCustomer;
+
 class RegisterController extends Controller
 {
     /*
@@ -66,12 +69,22 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'lastname' => $data['lastname'],
-            'othernames' => $data['othernames'],
-            'phone_number' => $data['phone_number'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-        ]);
+
+        $name = $data['lastname'];
+
+        $user = new User;
+        $user->lastname = $data['lastname'];
+        $user->othernames = $data['othernames'];
+        $user->phone_number = $data['phone_number'];
+        $user->email = $data['email'];
+        $user->password = Hash::make($data['password']);
+
+        $user->save();
+        $mail = ['hello@bluetick.ng'];
+        \Mail::to($mail)->send(new RegistrationForm($user));
+        \Mail::to($user->email)->send(new RegistrationFormCustomer($user));
+
+
+        return $user;
     }
 }

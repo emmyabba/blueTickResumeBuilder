@@ -30,7 +30,7 @@ class HomeController extends Controller
         $subscriptionStatus = Subscription::where('user_id', Auth()->user()->id)->where('end_date', '<=', $current_date_time)->where('status', '1')->first();
 
         if($subscriptionStatus == null):
-            return redirect(route('initiate.payment'));
+            return redirect(route('select.subscription'));
         else:
 
         return view('users.home');
@@ -50,22 +50,30 @@ class HomeController extends Controller
 
     public function processsub($package)
     {
-        $email = Auth()->user()->email;
-
         if($package == 'bronze'):
-                $price = 1000 * 100;
-        elseif($package == 'bronze'):
-            $price = 1500 * 100;
-        else:
-            $price = 2500 * 100;
+                $price = 1000 ;
+                $duration = 1;
+        elseif($package == 'silver'):
+            $price = 1500 ;
+            $duration = 3;
+            elseif($package == 'gold'):
+            $price = 2500;
+            $duration = 6;
         endif;
 
-        return view('users.initiatepayment', );
+        return view('users.initiatepayment', \compact('price', 'package', 'duration') );
 
     }
 
-    public function initiatepay()
+    public function handleGatewayCallback()
     {
-        return view('users.home');
+        $paymentDetails = Paystack::getPaymentData();
+
+        dd($paymentDetails);
+        // Now you have the payment details,
+        // you can store the authorization_code in your db to allow for recurrent subscriptions
+        // you can then redirect or do whatever you want
     }
+
+
 }

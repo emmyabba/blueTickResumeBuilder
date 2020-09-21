@@ -8,7 +8,7 @@
 
        @include('layouts.landing_meta')
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
+
         <!-- Bootstrap -->
         <link href="{!! asset('blue/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css" />
         <!-- Magnific -->
@@ -23,6 +23,7 @@
         <link href="{!! asset('blue/css/style.css') !!}" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="{!! asset('blue/css/colors/default.css') !!}" rel="stylesheet" id="color-opt">
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        @yield('head')
     </head>
 
     <body>
@@ -43,7 +44,7 @@
                 <!-- Logo container-->
                 <div>
                     <a class="logo" href="{{route('welcome')}}">
-                        <img src="images/logo-dark.png" height="24" alt="">
+
                     </a>
                 </div>
                 @guest
