@@ -54,12 +54,12 @@
                                             <div class="form-group position-relative">
                                                 <label>Last Name</label>
                                                 <i data-feather="user" class="fea icon-sm icons"></i>
-                                                <input name="last_name" id="last_name" type="text" class="form-control pl-5" value="{{Auth()->user()->lastname.'\'s'}}" disabled>
+                                                <input name="last_name" id="last_name" type="text" class="form-control pl-5" value="{{Auth()->user()->lastname}}" disabled>
                                             </div>
                                         </div><!--end col-->
                                         <div class="col-md-6">
                                             <div class="form-group position-relative">
-                                                <label>Other Name</label>
+                                                <label>Other Names</label>
                                                 <i data-feather="user-check" class="fea icon-sm icons"></i>
                                                 <input name="othernames" id="othernames" type="text" class="form-control pl-5" value="{{Auth()->user()->othernames}}" disabled>
                                             </div>
@@ -780,7 +780,7 @@
 
                                         $("#educational_endmonth_2").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = ' - '+$(this).val();
                                             // Setting the Div content
                                             $(".educational_endmonth_2").text(currentText);
                                         });
@@ -945,13 +945,13 @@
                                             <div class="col-md-12">
                                                 <h3 class="alert alert-primary"><b>Employment History</b></h3>
                                                     <b><p class="organisation_name_1"></p></b>
-                                                    <p><span class="organisation_name_1"></span></p>
+                                                    <p><span class="organisation_position_1"></span></p>
                                                     <p><span class="organisation_startmonth_1"></span> <span class="organisation_startyear_1"></span>  <span class="organisation_endmonth_1"></span> <span class="organisation_endyear_1"></span></p>
                                                     <p class="organisation_desc_1"></p>
                                             </div>
                                             <div class="col-md-12">
                                                     <b><p class="organisation_name_2"></p></b>
-                                                    <p><span class="organisation_name_2"></span></p>
+                                                    <p><span class="organisation_position_2"></span></p>
                                                     <p><span class="organisation_startmonth_2"></span> <span class="organisation_startyear_2"></span>  <span class="organisation_endmonth_2"></span> <span class="organisation_endyear_2"></span></p>
                                                     <p class="organisation_desc_2"></p>
                                             </div>

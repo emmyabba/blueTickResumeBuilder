@@ -83,7 +83,8 @@
                                             <div class="d-flex justify-content-between">
                                                 <div class="form-group">
                                                     <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                                        <input type="checkbox" class="custom-control-input" name="remember" id="customCheck1" {{ old('remember') ? 'checked' : '' }}>
                                                         <label class="custom-control-label" for="customCheck1">Remember me</label>
                                                     </div>
                                                 </div>
@@ -97,9 +98,9 @@
                                             <h6></h6>
                                             <ul class="list-unstyled social-icon mb-0 mt-3">
                                                 {{-- <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>--}}
-                                                <li class="list-inline-item">Or Login With</li>
+                                                {{-- <li class="list-inline-item">Or Login With</li>
                                                 <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                                            </ul><!--end icon-->
+                                            </ul><!--end icon--> --}}
                                         </div>
                                         <div class="col-12 text-center">
                                             <p class="mb-0 mt-3"><small class="text-dark mr-2">Don't have an account ?</small> <a href="{{route('register')}}" class="text-dark font-weight-bold">Sign Up</a></p>

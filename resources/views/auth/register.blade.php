@@ -119,9 +119,9 @@
                                             <h6></h6>
                                             <ul class="list-unstyled social-icon mb-0 mt-3">
                                                 {{-- <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>--}}
-                                                <li class="list-inline-item">Or Signup With</li>
+                                                {{-- <li class="list-inline-item">Or Signup With</li>
                                                 <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                                            </ul><!--end icon-->
+                                            </ul><!--end icon--> --}}
                                         </div>
                                         <div class="mx-auto">
                                             <p class="mb-0 mt-3"><small class="text-dark mr-2">Already have an account ?</small> <a href="{{route('login')}}" class="text-dark font-weight-bold">Sign in</a></p>
