@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Subscription;
 use Carbon\Carbon;
+use Paystack;
 
 class HomeController extends Controller
 {
@@ -60,6 +61,14 @@ class HomeController extends Controller
             $price = 2500;
             $duration = 6;
         endif;
+
+        $sub = new Subscription;
+
+        $sub->user_id = Auth()->user()->id;
+        $sub->package = $package;
+        $sub->price = $price;
+        $sub->trans_id = mt_rand(1000000000, 9999999999);
+
 
         return view('users.initiatepayment', \compact('price', 'package', 'duration') );
 
