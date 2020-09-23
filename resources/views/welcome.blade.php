@@ -8,7 +8,7 @@
                 <div class="col-lg-7 col-md-7 order-1 order-md-2">
                     <div class="title-heading mt-4 ml-lg-5">
                         <h2 class="heading mb-3">Get help writing a CV employers love</h2>
-                        <p class="para-desc text-muted">Thinking about how to water a CV? Use our CV templates developed by the employers you are applying to. We have easy to use templates for you, whether you are an undergraduate student applying for an internship with no experience or a graduate with several years of experience</p>
+                        <p class="para-desc text-muted">Use our CV template developed by the expert recruiters that hire you. We have developed an easy to use template for you, whether you are an undergraduate student applying for an internship with no experience or a graduate with several years of experience</p>
                         <div class="watch-video mt-4 pt-2">
                             <a href="{{route('home')}}" class="btn btn-primary">Create a CV <i class="mdi mdi-chevron-right"></i></a>
                         </div>
@@ -77,7 +77,7 @@
                 <div class="col-lg-12 col-md-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <div class="section-title ml-lg-3">
                         <h4 class="title mb-4 text-center">Learn how to write a job-winning CV to get your dream job</h4>
-                        <p class="text-center">Save time with our easy to use 3-step CV builder. In one click you can start creating professionally-designed CV templates approved by recruiters. Just dit and download in 5 minutes. </p>
+                        <p class="text-center">Save time with our easy to use 3-step CV builder. In one click you can start a creating professionally-designed CV using a template approved by recruiters. Just edit and download in less than 5 minutes. </p>
                         <div class="watch-video mt-4 pt-2 text-center">
                             <a href="{{route('home')}}" class="btn btn-primary">Create a CV <i class="mdi mdi-chevron-right"></i></a>
                         </div>
@@ -95,7 +95,7 @@
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
                         <h4 class="title mb-4">Template Key Features</h4>
-                        <p class="text-muted para-desc mx-auto mb-0">Designed for you to save time and energy. Our CV builder and templates are based on what employers actually look for in a candidate. How do we know? We’ve talked with thousands of employers to get the answers. Landing your dream job starts here.</p>
+                        <p class="text-muted para-desc mx-auto mb-0">Designed for you to save time. Our CV builder and template is based on what employers actually look for in a candidate. How do we know? We’ve talked with hundreds of recruiters to get the answers. Landing your dream job starts here.</p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
