@@ -118,7 +118,7 @@
                                         <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_1" id="educational_degree_1">
-                                                    <option>-- Select Degree --</option>
+                                                    <option>-- Select Qualification --</option>
                                                     <option value="Bachelor's Degree">Bachelor's Degree</option>
                                                     <option value="Master's Degree">Master's Degree</option>
                                                     <option value="PHD">PHD</option>
@@ -253,7 +253,7 @@
                                         <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_2" id="educational_degree_2">
-                                                    <option>-- Select Degree --</option>
+                                                    <option>-- Select Qualification --</option>
                                                     <option value="Bachelor's Degree">Bachelor's Degree</option>
                                                     <option value="Master's Degree">Master's Degree</option>
                                                     <option value="PHD">PHD</option>
