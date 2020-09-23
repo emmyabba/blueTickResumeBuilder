@@ -7,8 +7,8 @@
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <div class="section-title mb-4 pb-2">
-                        <h4 class="title mb-4">Pricing </h4>
-                        <p class="text-muted para-desc mb-0 mx-auto">Select a Pricing Plan</p>
+                        <h4 class="title mb-4">Select a Pricing Plan</h4>
+                        <p class="text-muted para-desc mb-0 mx-auto">Job applications for different roles and industries will require different CVs. Our plans ensure that you can continuosly login over your selected plan duration to make changes to your CV. Discounts are only available for a limited period of time. </p>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
