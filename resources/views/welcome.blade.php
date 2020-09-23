@@ -10,7 +10,7 @@
                         <h2 class="heading mb-3">Get help writing a CV employers love</h2>
                         <p class="para-desc text-muted">Use our CV template developed by the expert recruiters that hire you. We have developed an easy to use template for you, whether you are an undergraduate student applying for an internship with no experience or a graduate with several years of experience</p>
                         <div class="watch-video mt-4 pt-2">
-                            <a href="{{route('home')}}" class="btn btn-primary">Create a CV <i class="mdi mdi-chevron-right"></i></a>
+                            <a href="{{route('home')}}" class="btn btn-primary">Create CV <i class="mdi mdi-chevron-right"></i></a>
                         </div>
                     </div>
                 </div><!--end col-->
@@ -79,7 +79,7 @@
                         <h4 class="title mb-4 text-center">Learn how to write a job-winning CV to get your dream job</h4>
                         <p class="text-center">Save time with our easy to use 3-step CV builder. In one click you can start a creating professionally-designed CV using a template approved by recruiters. Just edit and download in less than 5 minutes. </p>
                         <div class="watch-video mt-4 pt-2 text-center">
-                            <a href="{{route('home')}}" class="btn btn-primary">Create a CV <i class="mdi mdi-chevron-right"></i></a>
+                            <a href="{{route('home')}}" class="btn btn-primary">Create CV <i class="mdi mdi-chevron-right"></i></a>
                         </div>
 
                     </div>
