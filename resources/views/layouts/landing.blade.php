@@ -8,7 +8,7 @@
 
        @include('layouts.landing_meta')
         <!-- favicon -->
-
+        <link rel="shortcut icon" href="{!! asset('blue/images/favicon.png') !!}">
         <!-- Bootstrap -->
         <link href="{!! asset('blue/css/bootstrap.min.css') !!}" rel="stylesheet" type="text/css" />
         <!-- Magnific -->
