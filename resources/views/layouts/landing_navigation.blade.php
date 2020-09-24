@@ -1,6 +1,6 @@
 <ul class="navigation-menu">
 <li><a href="{{route('welcome')}}">Home</a></li>
-    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="{{route('welcome').'/#pricing'}}">Pricing</a></li>
 
 
 
