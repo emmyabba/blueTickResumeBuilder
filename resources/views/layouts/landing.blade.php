@@ -104,7 +104,7 @@
         <!-- Back to top -->
 
 
-        {{-- <script src="{!! asset('blue/js/bootstrap.bundle.min.js') !!}"></script>
+        <script src="{!! asset('blue/js/bootstrap.bundle.min.js') !!}"></script>
         <script src="{!! asset('blue/js/jquery.easing.min.js') !!}"></script>
         <script src="{!! asset('blue/js/scrollspy.min.js') !!}"></script>
         <!-- Magnific Popup -->
@@ -117,7 +117,7 @@
         <script src="{!! asset('blue/js/feather.min.js') !!}"></script>
         <script src="{!! asset('blue/js/bundle.js') !!}"></script>
         <!-- Main Js -->
-        <script src="{!! asset('blue/js/app.js') !!}"></script> --}}
+        <script src="{!! asset('blue/js/app.js') !!}"></script>
 
 
     </body>

@@ -103,6 +103,259 @@
 
                                         <div class="col-lg-12">
                                             <div class="form-group position-relative">
+                                                <h3 class="alert text-info">Employment History</h3><hr>
+                                            </div>
+                                        </div>
+
+
+                                        <!--- -->
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <input name="organisation_name_1" id="organisation_name_1" type="text" class="form-control pl-5" placeholder="Organization">
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <label></label>
+                                                <input name="organisation_position_1" id="organisation_position_1" type="text" class="form-control pl-5" placeholder="Position">
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group position-relative">
+                                                <label></label>
+                                               <select class="form-control" name="organisation_startmonth_1" id="organisation_startmonth_1">
+                                                   <option>-- Start Month --</option>
+                                                   <option>January</option>
+                                                   <option>February</option>
+                                                   <option>March</option>
+                                                   <option>April</option>
+                                                   <option>May</option>
+                                                   <option>June</option>
+                                                   <option>July</option>
+                                                   <option>August</option>
+                                                   <option>September</option>
+                                                   <option>October</option>
+                                                   <option>November</option>
+                                                   <option>December</option>
+                                               </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label></label>
+                                               <select class="form-control" name="organisation_startyear_1" id="organisation_startyear_1">
+                                                   <option>-- Year --</option>
+                                                   <option>2020</option>
+                                                   <option>2019</option>
+                                                   <option>2018</option>
+                                                   <option>2017</option>
+                                                   <option>2016</option>
+                                                   <option>2015</option>
+                                                   <option>2014</option>
+                                                   <option>2013</option>
+                                                   <option>2012</option>
+                                                   <option>2011</option>
+                                                   <option>2010</option>
+                                                   <option>2009</option>
+                                                   <option>2008</option>
+                                                   <option>2007</option>
+                                                   <option>2006</option>
+                                                   <option>2005</option>
+                                                   <option>2004</option>
+                                                   <option>2003</option>
+                                                   <option>2002</option>
+                                                   <option>2001</option>
+                                                   <option>2000</option>
+                                               </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group position-relative">
+                                                <label></label>
+                                            <select class="form-control" name="organisation_endmonth_1" id="organisation_endmonth_1">
+                                                <option>-- End Month --</option>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <option>December</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label></label>
+                                            <select class="form-control" name="organisation_endyear_1" id="organisation_endyear_1">
+                                                <option>-- Year --</option>
+                                                <option>2020</option>
+                                                <option>2019</option>
+                                                <option>2018</option>
+                                                <option>2017</option>
+                                                <option>2016</option>
+                                                <option>2015</option>
+                                                <option>2014</option>
+                                                <option>2013</option>
+                                                <option>2012</option>
+                                                <option>2011</option>
+                                                <option>2010</option>
+                                                <option>2009</option>
+                                                <option>2008</option>
+                                                <option>2007</option>
+                                                <option>2006</option>
+                                                <option>2005</option>
+                                                <option>2004</option>
+                                                <option>2003</option>
+                                                <option>2002</option>
+                                                <option>2001</option>
+                                                <option>2000</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group position-relative">
+                                                <label>Description</label>
+                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                <textarea name="organisation_desc_1" id="organisation_desc_1" rows="2" class="form-control pl-5" placeholder=""></textarea>
+                                           </div>
+                                        </div>
+                                        <!-- -->
+
+
+                                        <!--- -->
+                                     <div class="col" id="myDIVv" style="display: none">
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <input name="organisation_name_2" id="organisation_name_2" type="text" class="form-control pl-5" placeholder="Organization">
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <label></label>
+                                                <input name="organisation_position_2" id="organisation_position_2" type="text" class="form-control pl-5" placeholder="Position">
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group position-relative">
+                                                <label></label>
+                                               <select class="form-control" name="organisation_startmonth_2" id="organisation_startmonth_2">
+                                                   <option>-- Start Month --</option>
+                                                   <option>January</option>
+                                                   <option>February</option>
+                                                   <option>March</option>
+                                                   <option>April</option>
+                                                   <option>May</option>
+                                                   <option>June</option>
+                                                   <option>July</option>
+                                                   <option>August</option>
+                                                   <option>September</option>
+                                                   <option>October</option>
+                                                   <option>November</option>
+                                                   <option>December</option>
+                                               </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label></label>
+                                               <select class="form-control" name="organisation_startyear_2" id="organisation_startyear_2">
+                                                   <option>-- Year --</option>
+                                                   <option>2020</option>
+                                                   <option>2019</option>
+                                                   <option>2018</option>
+                                                   <option>2017</option>
+                                                   <option>2016</option>
+                                                   <option>2015</option>
+                                                   <option>2014</option>
+                                                   <option>2013</option>
+                                                   <option>2012</option>
+                                                   <option>2011</option>
+                                                   <option>2010</option>
+                                                   <option>2009</option>
+                                                   <option>2008</option>
+                                                   <option>2007</option>
+                                                   <option>2006</option>
+                                                   <option>2005</option>
+                                                   <option>2004</option>
+                                                   <option>2003</option>
+                                                   <option>2002</option>
+                                                   <option>2001</option>
+                                                   <option>2000</option>
+                                               </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group position-relative">
+                                                <label></label>
+                                            <select class="form-control" name="organisation_endmonth_2" id="organisation_endmonth_2">
+                                                <option>-- End Month --</option>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <option>December</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label></label>
+                                            <select class="form-control" name="organisation_endyear_2" id="organisation_endyear_2">
+                                                <option>-- Year --</option>
+                                                <option>2020</option>
+                                                <option>2019</option>
+                                                <option>2018</option>
+                                                <option>2017</option>
+                                                <option>2016</option>
+                                                <option>2015</option>
+                                                <option>2014</option>
+                                                <option>2013</option>
+                                                <option>2012</option>
+                                                <option>2011</option>
+                                                <option>2010</option>
+                                                <option>2009</option>
+                                                <option>2008</option>
+                                                <option>2007</option>
+                                                <option>2006</option>
+                                                <option>2005</option>
+                                                <option>2004</option>
+                                                <option>2003</option>
+                                                <option>2002</option>
+                                                <option>2001</option>
+                                                <option>2000</option>
+                                            </select>
+                                        </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group position-relative">
+                                                <label>Description</label>
+                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                <textarea name="organisation_desc_2" id="organisation_desc_2" rows="2" class="form-control pl-5" placeholder=""></textarea>
+                                           </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-md-12">
+                                        <div class="form-group position-relative">
+                                                <a onclick="myFunctionx()" class="pull-right btn btn-info">Add Employment</a>
+                                        </div>
+                                    </div>
+
+
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
                                                 <h3 class="alert text-info">Educational History</h3><hr>
                                             </div>
                                         </div>
@@ -383,257 +636,6 @@
                                     </div>
                                         <!-- -->
 
-                                        <div class="col-lg-12">
-                                            <div class="form-group position-relative">
-                                                <h3 class="alert text-info">Employment History</h3><hr>
-                                            </div>
-                                        </div>
-
-
-                                        <!--- -->
-                                        <div class="col-lg-12">
-                                            <div class="form-group position-relative">
-                                                <input name="organisation_name_1" id="organisation_name_1" type="text" class="form-control pl-5" placeholder="Organization">
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group position-relative">
-                                                <label></label>
-                                                <input name="organisation_position_1" id="organisation_position_1" type="text" class="form-control pl-5" placeholder="Position">
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group position-relative">
-                                                <label></label>
-                                               <select class="form-control" name="organisation_startmonth_1" id="organisation_startmonth_1">
-                                                   <option>-- Start Month --</option>
-                                                   <option>January</option>
-                                                   <option>February</option>
-                                                   <option>March</option>
-                                                   <option>April</option>
-                                                   <option>May</option>
-                                                   <option>June</option>
-                                                   <option>July</option>
-                                                   <option>August</option>
-                                                   <option>September</option>
-                                                   <option>October</option>
-                                                   <option>November</option>
-                                                   <option>December</option>
-                                               </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label></label>
-                                               <select class="form-control" name="organisation_startyear_1" id="organisation_startyear_1">
-                                                   <option>-- Year --</option>
-                                                   <option>2020</option>
-                                                   <option>2019</option>
-                                                   <option>2018</option>
-                                                   <option>2017</option>
-                                                   <option>2016</option>
-                                                   <option>2015</option>
-                                                   <option>2014</option>
-                                                   <option>2013</option>
-                                                   <option>2012</option>
-                                                   <option>2011</option>
-                                                   <option>2010</option>
-                                                   <option>2009</option>
-                                                   <option>2008</option>
-                                                   <option>2007</option>
-                                                   <option>2006</option>
-                                                   <option>2005</option>
-                                                   <option>2004</option>
-                                                   <option>2003</option>
-                                                   <option>2002</option>
-                                                   <option>2001</option>
-                                                   <option>2000</option>
-                                               </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group position-relative">
-                                                <label></label>
-                                            <select class="form-control" name="organisation_endmonth_1" id="organisation_endmonth_1">
-                                                <option>-- End Month --</option>
-                                                <option>January</option>
-                                                <option>February</option>
-                                                <option>March</option>
-                                                <option>April</option>
-                                                <option>May</option>
-                                                <option>June</option>
-                                                <option>July</option>
-                                                <option>August</option>
-                                                <option>September</option>
-                                                <option>October</option>
-                                                <option>November</option>
-                                                <option>December</option>
-                                            </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label></label>
-                                            <select class="form-control" name="organisation_endyear_1" id="organisation_endyear_1">
-                                                <option>-- Year --</option>
-                                                <option>2020</option>
-                                                <option>2019</option>
-                                                <option>2018</option>
-                                                <option>2017</option>
-                                                <option>2016</option>
-                                                <option>2015</option>
-                                                <option>2014</option>
-                                                <option>2013</option>
-                                                <option>2012</option>
-                                                <option>2011</option>
-                                                <option>2010</option>
-                                                <option>2009</option>
-                                                <option>2008</option>
-                                                <option>2007</option>
-                                                <option>2006</option>
-                                                <option>2005</option>
-                                                <option>2004</option>
-                                                <option>2003</option>
-                                                <option>2002</option>
-                                                <option>2001</option>
-                                                <option>2000</option>
-                                            </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group position-relative">
-                                                <label>Description</label>
-                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
-                                                <textarea name="organisation_desc_1" id="organisation_desc_1" rows="2" class="form-control pl-5" placeholder=""></textarea>
-                                           </div>
-                                        </div>
-                                        <!-- -->
-
-
-                                        <!--- -->
-                                     <div class="col" id="myDIVv" style="display: none">
-                                        <div class="col-lg-12">
-                                            <div class="form-group position-relative">
-                                                <input name="organisation_name_2" id="organisation_name_2" type="text" class="form-control pl-5" placeholder="Organization">
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="form-group position-relative">
-                                                <label></label>
-                                                <input name="organisation_position_2" id="organisation_position_2" type="text" class="form-control pl-5" placeholder="Position">
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group position-relative">
-                                                <label></label>
-                                               <select class="form-control" name="organisation_startmonth_2" id="organisation_startmonth_2">
-                                                   <option>-- Start Month --</option>
-                                                   <option>January</option>
-                                                   <option>February</option>
-                                                   <option>March</option>
-                                                   <option>April</option>
-                                                   <option>May</option>
-                                                   <option>June</option>
-                                                   <option>July</option>
-                                                   <option>August</option>
-                                                   <option>September</option>
-                                                   <option>October</option>
-                                                   <option>November</option>
-                                                   <option>December</option>
-                                               </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label></label>
-                                               <select class="form-control" name="organisation_startyear_2" id="organisation_startyear_2">
-                                                   <option>-- Year --</option>
-                                                   <option>2020</option>
-                                                   <option>2019</option>
-                                                   <option>2018</option>
-                                                   <option>2017</option>
-                                                   <option>2016</option>
-                                                   <option>2015</option>
-                                                   <option>2014</option>
-                                                   <option>2013</option>
-                                                   <option>2012</option>
-                                                   <option>2011</option>
-                                                   <option>2010</option>
-                                                   <option>2009</option>
-                                                   <option>2008</option>
-                                                   <option>2007</option>
-                                                   <option>2006</option>
-                                                   <option>2005</option>
-                                                   <option>2004</option>
-                                                   <option>2003</option>
-                                                   <option>2002</option>
-                                                   <option>2001</option>
-                                                   <option>2000</option>
-                                               </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group position-relative">
-                                                <label></label>
-                                            <select class="form-control" name="organisation_endmonth_2" id="organisation_endmonth_2">
-                                                <option>-- End Month --</option>
-                                                <option>January</option>
-                                                <option>February</option>
-                                                <option>March</option>
-                                                <option>April</option>
-                                                <option>May</option>
-                                                <option>June</option>
-                                                <option>July</option>
-                                                <option>August</option>
-                                                <option>September</option>
-                                                <option>October</option>
-                                                <option>November</option>
-                                                <option>December</option>
-                                            </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label></label>
-                                            <select class="form-control" name="organisation_endyear_2" id="organisation_endyear_2">
-                                                <option>-- Year --</option>
-                                                <option>2020</option>
-                                                <option>2019</option>
-                                                <option>2018</option>
-                                                <option>2017</option>
-                                                <option>2016</option>
-                                                <option>2015</option>
-                                                <option>2014</option>
-                                                <option>2013</option>
-                                                <option>2012</option>
-                                                <option>2011</option>
-                                                <option>2010</option>
-                                                <option>2009</option>
-                                                <option>2008</option>
-                                                <option>2007</option>
-                                                <option>2006</option>
-                                                <option>2005</option>
-                                                <option>2004</option>
-                                                <option>2003</option>
-                                                <option>2002</option>
-                                                <option>2001</option>
-                                                <option>2000</option>
-                                            </select>
-                                        </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group position-relative">
-                                                <label>Description</label>
-                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
-                                                <textarea name="organisation_desc_2" id="organisation_desc_2" rows="2" class="form-control pl-5" placeholder=""></textarea>
-                                           </div>
-                                        </div>
-                                    </div>
-                                     <div class="col-md-12">
-                                        <div class="form-group position-relative">
-                                                <a onclick="myFunctionx()" class="pull-right btn btn-info">Add Employment</a>
-                                        </div>
-                                    </div>
 
                                         <!-- -->
                                         <div class="col-md-12">
@@ -930,19 +932,6 @@
                                              </div>
 
                                              <div class="col-md-12">
-                                                <h3 class="alert alert-primary"><b>Educational History</b></h3>
-                                                <b><p class="educational_university_1"></p></b>
-                                                <p><span class="educational_degree_1"></span> <span class="educational_course_1"></span></p>
-                                                <p><span class="educational_startmonth_1"></span> <span class="educational_startyear_1"></span><span class="educational_endmonth_1"></span> <span class="educational_endyear_1"></span></p>
-                                                <p class="educational_desc_1"></p>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <b><p class="educational_university_2"></p></b>
-                                                <p><span class="educational_degree_2"></span> <span class="educational_course_2"></span></p>
-                                                <p><span class="educational_startmonth_2"></span> <span class="educational_startyear_2"></span>  <span class="educational_endmonth_2"></span> <span class="educational_endyear_2"></span></p>
-                                                <p class="educational_desc_2"></p>
-                                            </div>
-                                            <div class="col-md-12">
                                                 <h3 class="alert alert-primary"><b>Employment History</b></h3>
                                                     <b><p class="organisation_name_1"></p></b>
                                                     <p><span class="organisation_position_1"></span></p>
@@ -955,6 +944,21 @@
                                                     <p><span class="organisation_startmonth_2"></span> <span class="organisation_startyear_2"></span>  <span class="organisation_endmonth_2"></span> <span class="organisation_endyear_2"></span></p>
                                                     <p class="organisation_desc_2"></p>
                                             </div>
+
+                                             <div class="col-md-12">
+                                                <h3 class="alert alert-primary"><b>Educational History</b></h3>
+                                                <b><p class="educational_university_1"></p></b>
+                                                <p><span class="educational_degree_1"></span> <span class="educational_course_1"></span></p>
+                                                <p><span class="educational_startmonth_1"></span> <span class="educational_startyear_1"></span><span class="educational_endmonth_1"></span> <span class="educational_endyear_1"></span></p>
+                                                <p class="educational_desc_1"></p>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <b><p class="educational_university_2"></p></b>
+                                                <p><span class="educational_degree_2"></span> <span class="educational_course_2"></span></p>
+                                                <p><span class="educational_startmonth_2"></span> <span class="educational_startyear_2"></span>  <span class="educational_endmonth_2"></span> <span class="educational_endyear_2"></span></p>
+                                                <p class="educational_desc_2"></p>
+                                            </div>
+
 
                                             <div class="col-md-12">
                                                 <h3 class="alert alert-primary"><b>Skills</b></h3>
