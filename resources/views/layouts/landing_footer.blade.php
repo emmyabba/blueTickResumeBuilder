@@ -14,7 +14,7 @@
             </div><!--end col-->
 
             <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-
+                <h4 class="text-light footer-head">Usefull Links</h4>
                 <ul class="list-unstyled footer-list mt-4">
                     <li><a href="page-aboutus.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Create CV</a></li>
                     <li><a href="page-services.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Pricing</a></li>
