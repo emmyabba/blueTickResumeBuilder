@@ -44,7 +44,7 @@
                 <!-- Logo container-->
                 <div>
                     <a class="logo" href="{{route('welcome')}}">
-
+                        <img src="{!! asset('blue/images/bluetick-logo.png') !!}" height="24" alt="">
                     </a>
                 </div>
                 @guest
