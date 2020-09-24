@@ -249,6 +249,7 @@
     </section>
 @endsection
 
+
 @section('footer')
     @include('layouts.landing_footer')
 @endsection

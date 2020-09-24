@@ -39,7 +39,7 @@
         <!-- Loader -->
 
         <!-- Navbar STart -->
-        <header id="topnav" class=" ">
+        <header id="topnav" class="defaultscroll sticky">
             <div class="container">
                 <!-- Logo container-->
                 <div>
@@ -83,6 +83,7 @@
                         <!-- End mobile menu toggle-->
                     </div>
                 </div>
+
 
                 <div id="navigation">
                     <!-- Navigation Menu-->
