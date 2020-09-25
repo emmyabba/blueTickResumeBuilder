@@ -120,7 +120,7 @@
                                                 <input name="organisation_position_1" id="organisation_position_1" type="text" class="form-control pl-5" placeholder="Position">
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startmonth_1" id="organisation_startmonth_1">
@@ -140,7 +140,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startyear_1" id="organisation_startyear_1">
@@ -169,7 +169,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endmonth_1" id="organisation_endmonth_1">
@@ -189,7 +189,7 @@
                                             </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endyear_1" id="organisation_endyear_1">
@@ -241,7 +241,7 @@
                                                 <input name="organisation_position_2" id="organisation_position_2" type="text" class="form-control pl-5" placeholder="Position">
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startmonth_2" id="organisation_startmonth_2">
@@ -261,7 +261,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startyear_2" id="organisation_startyear_2">
@@ -290,7 +290,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endmonth_2" id="organisation_endmonth_2">
@@ -310,7 +310,7 @@
                                             </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endyear_2" id="organisation_endyear_2">
@@ -390,7 +390,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="educational_startmonth_1" id="educational_startmonth_1">
@@ -410,7 +410,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="educational_startyear_1" id="educational_startyear_1">
@@ -439,7 +439,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="educational_endmonth_1" id="educational_endmonth_1">
@@ -459,7 +459,7 @@
                                             </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="educational_endyear_1" id="educational_endyear_1">
@@ -530,7 +530,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="educational_startmonth_2" id="educational_startmonth_2">
@@ -550,7 +550,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="educational_startyear_2" id="educational_startyear_2">
@@ -579,7 +579,7 @@
                                                </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="educational_endmonth_2" id="educational_endmonth_2">
@@ -599,7 +599,7 @@
                                             </select>
                                         </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="educational_endyear_2" id="educational_endyear_2">
