@@ -34,7 +34,7 @@
                         </div>
 
                         <div class="content mt-4">
-                            <h4 class="title-2">Signup</h4>
+                            <h4 class="title-2">Sign Up</h4>
                             <p class="text-muted mb-0">Create an account, select one of our payment plans to gain access to our job-winning templates that fit your profile whether you are an undergraduate student, have no experience, applying for an internship or a fresh graduate.</p>
                         </div>
                     </div>
