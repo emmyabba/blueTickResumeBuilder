@@ -124,7 +124,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startmonth_1" id="organisation_startmonth_1">
-                                                   <option>-- Start Month --</option>
+                                                   <option>-- start month --</option>
                                                    <option>January</option>
                                                    <option>February</option>
                                                    <option>March</option>
@@ -144,7 +144,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startyear_1" id="organisation_startyear_1">
-                                                   <option>-- Year --</option>
+                                                   <option>-- start year --</option>
                                                    <option>2020</option>
                                                    <option>2019</option>
                                                    <option>2018</option>
@@ -173,7 +173,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endmonth_1" id="organisation_endmonth_1">
-                                                <option>-- End Month --</option>
+                                                <option>-- end month --</option>
                                                 <option>January</option>
                                                 <option>February</option>
                                                 <option>March</option>
@@ -193,7 +193,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endyear_1" id="organisation_endyear_1">
-                                                <option>-- Year --</option>
+                                                <option>-- end year --</option>
                                                 <option>2020</option>
                                                 <option>2019</option>
                                                 <option>2018</option>
@@ -218,6 +218,7 @@
                                             </select>
                                         </div>
                                         </div>
+
                                         <div class="col-md-12">
                                             <div class="form-group position-relative">
                                                 <label>Description</label>
@@ -245,7 +246,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startmonth_2" id="organisation_startmonth_2">
-                                                   <option>-- Start Month --</option>
+                                                   <option>-- start month --</option>
                                                    <option>January</option>
                                                    <option>February</option>
                                                    <option>March</option>
@@ -265,7 +266,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="organisation_startyear_2" id="organisation_startyear_2">
-                                                   <option>-- Year --</option>
+                                                   <option>-- start year --</option>
                                                    <option>2020</option>
                                                    <option>2019</option>
                                                    <option>2018</option>
@@ -294,7 +295,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endmonth_2" id="organisation_endmonth_2">
-                                                <option>-- End Month --</option>
+                                                <option>-- end month --</option>
                                                 <option>January</option>
                                                 <option>February</option>
                                                 <option>March</option>
@@ -314,7 +315,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="organisation_endyear_2" id="organisation_endyear_2">
-                                                <option>-- Year --</option>
+                                                <option>-- end year --</option>
                                                 <option>2020</option>
                                                 <option>2019</option>
                                                 <option>2018</option>
@@ -394,7 +395,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="educational_startmonth_1" id="educational_startmonth_1">
-                                                   <option>-- Start Month --</option>
+                                                   <option>-- start month --</option>
                                                    <option>January</option>
                                                    <option>February</option>
                                                    <option>March</option>
@@ -414,7 +415,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="educational_startyear_1" id="educational_startyear_1">
-                                                   <option>-- Year --</option>
+                                                   <option>-- start year --</option>
                                                    <option>2020</option>
                                                    <option>2019</option>
                                                    <option>2018</option>
@@ -443,7 +444,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="educational_endmonth_1" id="educational_endmonth_1">
-                                                <option>-- End Month --</option>
+                                                <option>-- end month --</option>
                                                 <option>January</option>
                                                 <option>February</option>
                                                 <option>March</option>
@@ -463,7 +464,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="educational_endyear_1" id="educational_endyear_1">
-                                                <option>-- Year --</option>
+                                                <option>-- end year --</option>
                                                 <option>2020</option>
                                                 <option>2019</option>
                                                 <option>2018</option>
@@ -534,7 +535,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                                <select class="form-control" name="educational_startmonth_2" id="educational_startmonth_2">
-                                                   <option>-- Start Month --</option>
+                                                   <option>-- start month --</option>
                                                    <option>January</option>
                                                    <option>February</option>
                                                    <option>March</option>
@@ -554,7 +555,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                                <select class="form-control" name="educational_startyear_2" id="educational_startyear_2">
-                                                   <option>-- Year --</option>
+                                                   <option>-- start year --</option>
                                                    <option>2020</option>
                                                    <option>2019</option>
                                                    <option>2018</option>
@@ -583,7 +584,7 @@
                                             <div class="form-group position-relative">
                                                 <label></label>
                                             <select class="form-control" name="educational_endmonth_2" id="educational_endmonth_2">
-                                                <option>-- End Month --</option>
+                                                <option>-- end month --</option>
                                                 <option>January</option>
                                                 <option>February</option>
                                                 <option>March</option>
@@ -603,7 +604,7 @@
                                             <div class="form-group">
                                                 <label></label>
                                             <select class="form-control" name="educational_endyear_2" id="educational_endyear_2">
-                                                <option>-- Year --</option>
+                                                <option>-- end year --</option>
                                                 <option>2020</option>
                                                 <option>2019</option>
                                                 <option>2018</option>
