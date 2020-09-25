@@ -372,9 +372,14 @@
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_1" id="educational_degree_1">
                                                     <option>-- Select Qualification --</option>
-                                                    <option value="Bachelor's Degree">Bachelor's Degree</option>
-                                                    <option value="Master's Degree">Master's Degree</option>
-                                                    <option value="PHD">PHD</option>
+                                                    <option value="Diploma">Diploma</option>
+                                                    <option value="High School (SSCE)">High School (SSCE)</option>
+                                                    <option value="HND">HND</option>
+                                                    <option value="MBBS">MBBS</option>
+                                                    <option value="Mphil/PhD">Mphil/PhD</option>
+                                                    <option value="N.C.E">N.C.E</option>
+                                                    <option value="OND">OND</option>
+                                                    <option value="Others">Others</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -507,9 +512,14 @@
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_2" id="educational_degree_2">
                                                     <option>-- Select Qualification --</option>
-                                                    <option value="Bachelor's Degree">Bachelors Degree</option>
-                                                    <option value="Master's Degree">Master Degree</option>
-                                                    <option value="PHD">PHD</option>
+                                                    <option value="Diploma">Diploma</option>
+                                                    <option value="High School (SSCE)">High School (SSCE)</option>
+                                                    <option value="HND">HND</option>
+                                                    <option value="MBBS">MBBS</option>
+                                                    <option value="Mphil/PhD">Mphil/PhD</option>
+                                                    <option value="N.C.E">N.C.E</option>
+                                                    <option value="OND">OND</option>
+                                                    <option value="Others">Others</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -721,7 +731,7 @@
 
                                         $("#educational_endmonth_1").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = '- '+$(this).val();
+                                            var currentText = ' - '+$(this).val();
                                             // Setting the Div content
                                             $(".educational_endmonth_1").text(currentText);
                                         });
