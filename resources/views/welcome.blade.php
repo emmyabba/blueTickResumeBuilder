@@ -1,5 +1,8 @@
 @extends('layouts.landing')
 
+@section('head')
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="7a580092-f739-4c1c-b5a4-531fbb2d9939";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+@endsection
 @section('content')
     <!-- Hero Start -->
     <section class="bg-half-170 border-bottom agency-wrapper d-table w-100" id="home">

@@ -373,8 +373,10 @@
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_1" id="educational_degree_1">
                                                     <option>-- Select Qualification --</option>
-                                                    <option value="Diploma">Diploma</option>
                                                     <option value="High School (SSCE)">High School (SSCE)</option>
+                                                    <option value="Diploma">Diploma</option>
+                                                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                                                    <option value="Master's Degree">Master's Degree</option>
                                                     <option value="HND">HND</option>
                                                     <option value="MBBS">MBBS</option>
                                                     <option value="Mphil/PhD">Mphil/PhD</option>
@@ -513,8 +515,10 @@
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_2" id="educational_degree_2">
                                                     <option>-- Select Qualification --</option>
-                                                    <option value="Diploma">Diploma</option>
                                                     <option value="High School (SSCE)">High School (SSCE)</option>
+                                                    <option value="Diploma">Diploma</option>
+                                                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                                                    <option value="Master's Degree">Master's Degree</option>
                                                     <option value="HND">HND</option>
                                                     <option value="MBBS">MBBS</option>
                                                     <option value="Mphil/PhD">Mphil/PhD</option>
@@ -893,7 +897,7 @@
 
                                         $("#organisation_endmonth_2").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = ' - ' +$(this).val();
                                             // Setting the Div content
                                             $(".organisation_endmonth_2").text(currentText);
                                         });
@@ -946,13 +950,13 @@
                                                 <h3 class="alert alert-primary"><b>Employment History</b></h3>
                                                     <b><p class="organisation_name_1"></p></b>
                                                     <p><span class="organisation_position_1"></span></p>
-                                                    <p><span class="organisation_startmonth_1"></span> <span class="organisation_startyear_1"></span>  <span class="organisation_endmonth_1"></span> <span class="organisation_endyear_1"></span></p>
+                                                    <p><span class="organisation_startmonth_1"></span><span class="organisation_startyear_1"></span>  <span class="organisation_endmonth_1"></span> <span class="organisation_endyear_1"></span></p>
                                                     <p class="organisation_desc_1"></p>
                                             </div>
                                             <div class="col-md-12">
                                                     <b><p class="organisation_name_2"></p></b>
                                                     <p><span class="organisation_position_2"></span></p>
-                                                    <p><span class="organisation_startmonth_2"></span> <span class="organisation_startyear_2"></span>  <span class="organisation_endmonth_2"></span> <span class="organisation_endyear_2"></span></p>
+                                                    <p><span class="organisation_startmonth_2"></span><span class="organisation_startyear_2"></span>  <span class="organisation_endmonth_2"></span> <span class="organisation_endyear_2"></span></p>
                                                     <p class="organisation_desc_2"></p>
                                             </div>
 
@@ -960,13 +964,13 @@
                                                 <h3 class="alert alert-primary"><b>Educational History</b></h3>
                                                 <b><p class="educational_university_1"></p></b>
                                                 <p><span class="educational_degree_1"></span> <span class="educational_course_1"></span></p>
-                                                <p><span class="educational_startmonth_1"></span> <span class="educational_startyear_1"></span><span class="educational_endmonth_1"></span> <span class="educational_endyear_1"></span></p>
+                                                <p><span class="educational_startmonth_1"></span><span class="educational_startyear_1"></span><span class="educational_endmonth_1"></span> <span class="educational_endyear_1"></span></p>
                                                 <p class="educational_desc_1"></p>
                                             </div>
                                             <div class="col-md-12">
                                                 <b><p class="educational_university_2"></p></b>
                                                 <p><span class="educational_degree_2"></span> <span class="educational_course_2"></span></p>
-                                                <p><span class="educational_startmonth_2"></span> <span class="educational_startyear_2"></span>  <span class="educational_endmonth_2"></span> <span class="educational_endyear_2"></span></p>
+                                                <p><span class="educational_startmonth_2"></span><span class="educational_startyear_2"></span>  <span class="educational_endmonth_2"></span> <span class="educational_endyear_2"></span></p>
                                                 <p class="educational_desc_2"></p>
                                             </div>
 
