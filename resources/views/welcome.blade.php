@@ -192,7 +192,7 @@
                             <h2 class="title text-uppercase text-primary mb-4">Bronze</h2>
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358;</span>
-                                <span class="price h1 mb-0">1000</span>
+                                <span class="price h1 mb-0">1, 000</span>
                             </div>
 
                             <ul class="list-unstyled mb-0 pl-0">

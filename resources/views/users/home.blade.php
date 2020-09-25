@@ -507,8 +507,8 @@
                                             <div class="form-group position-relative">
                                                 <select class="form-control pl-5" name="educational_degree_2" id="educational_degree_2">
                                                     <option>-- Select Qualification --</option>
-                                                    <option value="Bachelor's Degree">Bachelor's Degree</option>
-                                                    <option value="Master's Degree">Master's Degree</option>
+                                                    <option value="Bachelor's Degree">Bachelors Degree</option>
+                                                    <option value="Master's Degree">Master Degree</option>
                                                     <option value="PHD">PHD</option>
                                                 </select>
                                             </div>
