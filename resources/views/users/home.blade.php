@@ -763,7 +763,7 @@
 
                                         $("#educational_degree_2").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val()+' ,';
+                                            var currentText = $(this).val()+', ';
                                             // Setting the Div content
                                             $(".educational_degree_2").text(currentText);
                                         });
@@ -843,7 +843,7 @@
 
                                         $("#organisation_endmonth_1").change(function(){
                                             // Getting the current value of textarea
-                                            var currentText = $(this).val();
+                                            var currentText = ' - ' +$(this).val();
                                             // Setting the Div content
                                             $(".organisation_endmonth_1").text(currentText);
                                         });
