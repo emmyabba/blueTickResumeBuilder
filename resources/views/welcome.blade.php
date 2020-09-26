@@ -230,7 +230,7 @@
                 <div class="col-md-4 col-12 mt-4 pt-2">
                     <div class="card pricing-rates starter-plan bg-white shadow rounded text-center border-0">
                         <div class="card-body py-5">
-                            <h2 class="title text-uppercase text-primary mb-4">Gold</h2>
+                            <h2 class="title text-uppercase text-primary mb-4">Gold <br><sub class="alert alert-danger" style="font-size: 10px">Most popular</sub></h2>
                             <div class="d-flex justify-content-center mb-4">
                                 <span class="h4 mb-0 mt-2">&#8358; </span>
                                 <span class="price h1 mb-0">2, 500</span>
