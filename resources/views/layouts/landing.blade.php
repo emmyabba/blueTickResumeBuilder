@@ -24,6 +24,15 @@
         <link href="{!! asset('blue/css/colors/default.css') !!}" rel="stylesheet" id="color-opt">
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         @yield('head')
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179135541-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179135541-1');
+</script>
     </head>
 
     <body>
@@ -118,6 +127,7 @@
         <script src="{!! asset('blue/js/bundle.js') !!}"></script>
         <!-- Main Js -->
         <script src="{!! asset('blue/js/app.js') !!}"></script>
+
 
 
     </body>

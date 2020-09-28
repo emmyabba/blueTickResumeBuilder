@@ -1,7 +1,7 @@
 @extends('layouts.landing')
 
 @section('head')
-<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="7a580092-f739-4c1c-b5a4-531fbb2d9939";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+<script src="//code.tidio.co/obaz8mcm2ktoqdrf1s7yjh9kwoddz6do.js" async></script>
 @endsection
 @section('content')
     <!-- Hero Start -->
@@ -220,7 +220,7 @@
 
                             <ul class="list-unstyled mb-0 pl-0">
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>3 month access</li>
-                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit CV templates</li>
+                                <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Easily Edit CV template</li>
                                 <li class="h6 text-muted mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Download as PDF</li>
                             </ul>
                             <a href="{{route('process.subscription', 'silver')}}" class="btn btn-primary mt-4">Get started</a>

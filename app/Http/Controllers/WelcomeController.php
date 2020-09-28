@@ -7,14 +7,12 @@ use App\Notify;
 
 class WelcomeController extends Controller
 {
+
     public function index()
     {
+        $title = 'Home';
 
-        $description ='';
-        $keywords = '';
-        $author = '';
-
-        return view('count', compact('keywords'));
+        return view('welcome', \compact('title'));
     }
 
     public function notifyme(Request $request)
@@ -37,13 +35,4 @@ class WelcomeController extends Controller
 
     }
 
-    public function staging()
-    {
-
-        $description ='';
-        $keywords = '';
-        $author = '';
-
-        return view('welcome', compact('keywords'));
-    }
 }

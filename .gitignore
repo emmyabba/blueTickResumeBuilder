@@ -12,4 +12,5 @@ npm-debug.log
 yarn-error.log
 /app/Http/Controllers
 /routes/web.php
+/resources/views/users
 /resources/views/users/home.blade.php
